@@ -10,10 +10,8 @@
 
 /**********************/
 /* A. hover images  */ 
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Quattrocento);
-.snip1361 { /*text inside white*/
-  font-variant: small-caps;
+.backGroundImages {
+  font-variant: small-caps; /*text inside white*/
   position: relative;
   overflow: hidden;
   margin: 10px;
@@ -25,24 +23,24 @@
   line-height: 1.4em;
   font-size: 16px;
 }
-.snip1361 * {
+.backGroundImages * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.snip1361 img {
+.backGroundImages img {
   max-width: 100%;
   vertical-align: top;
 }
-.snip1361 figcaption {
+.backGroundImages figcaption { 
   position: absolute;
   top: calc(77%);
   width: 100%;
-  background-color: #ffffff;
+  background-color: #ffffff; /*white where wrtiting is*/
   padding: 15px 25px 65px;
 }
-.snip1361 figcaption:before {
+.backGroundImages figcaption:before {
   position: absolute;
   content: '';
   z-index: 2;
@@ -53,23 +51,23 @@
   background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
   background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
 }
-.snip1361 h3,
-.snip1361 p {
+.backGroundImages h3,
+.backGroundImages p {
   margin: 0 0 10px;
 }
-.snip1361 h3 {
+.backGroundImages h3 {
   font-weight: 300;
   font-size: 1.4em;
   line-height: 1.2em;
   font-family: cursive;  /* text titles that are over images */
   font-variant: small-caps;
 }
-.snip1361 p {
+.backGroundImages p {
   font-size: 0.9em;
   letter-spacing: 1px;
   opacity: 0.9;
 }
-.snip1361 a {
+.backGroundImages a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -77,8 +75,8 @@
   right: 0;
   z-index: 2;
 }
-.snip1361:hover figcaption,
-.snip1361.hover figcaption {
+.backGroundImages:hover figcaption,
+.backGroundImages.hover figcaption {
   top: 80px;
 }
 
