@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+    background-image: url(/Assets/images/canadaSmall2018.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar-name{
+    font-size: 30px;
+    float: left;
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+
+}
+.navbar-container{
+    position: absolute;
+    width:100%;
+
+}
+.navbar-container a{
+    text-decoration: none;
+    color: black;
+}
+.links li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+   /* list-style-type:none;*/
+    display: inline-block;
+}
+.navbar-links ul{
+    float: right;
+}
+.links a:hover{
+    background-color: #e3c4a8;
+    /*color hunt gives you more colors. 
+    you can click the color and that coppies it put the # and then paste
+     it*/
+}
+
+
+
+.hero-text {
+    text-align: center;
+   position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+
+  }
+
+
+
+
+
+
+
+
+  /* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 300ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: transparent;}
+  to{border-right-color: transparent;}
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Decovar Regular24';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
+}
+h1 {
+    margin: 0;
+    font-size: 20vw;
+    position: relative;
+    font-family: "Decovar Regular24";
+    font-variation-settings: 'INLN' 1000, 'SWRM' 1000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/209708058_b5a5fb07a6_o.jpg);
+    background-size: 30%;
+    background-repeat: repeat;
+    text-shadow: 2px 2px 5px rgba(42, 67, 8, 0.4);
+    animation: grow 4s linear infinite;
+}
+h1:before {
+    text-shadow: 1px 1px 2px rgba(42, 67, 8, 0.5), -1px 1px 2px rgba(42, 67, 8, 0.5), -1px -1px 2px rgba(42, 67, 8, 0.5), 1px -1px 2px rgba(42, 67, 8, 0.5), 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+h1:after {
+    color: #421f00;
+    font-variation-settings: 'INLN' 0;
+}
+@keyframes grow {
+    0% {
+        font-variation-settings: 'INLN' 1000, 'SWRM' 1000;
+   }
+    50% {
+        font-variation-settings: 'INLN' 1000, 'SWRM' 0;
+   }
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    letter-spacing: 0.6rem;
+}
+h1:after, h1:before {
+    content: attr(data-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+/* Text hover effects */
+
