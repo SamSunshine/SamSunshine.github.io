@@ -71,13 +71,7 @@ html{
   min-height: 100%;
   overflow: hidden;
 }
-body{
-  height: calc(100vh - 8em);
-  padding: 4em;
-  color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;  
-  background-color: rgb(25,25,25);  
-}
+
 .line-1{
     position: relative;
     top: 50%;  
@@ -119,7 +113,7 @@ h1 {
     position: relative;
     font-family: "Decovar Regular24";
     font-variation-settings: 'INLN' 1000, 'SWRM' 1000;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/209708058_b5a5fb07a6_o.jpg);
     background-size: 30%;
