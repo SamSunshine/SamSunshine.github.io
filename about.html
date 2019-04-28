@@ -13,101 +13,104 @@
 
 
 <body>
-<div class="header">
-    <header>Hello. Hover over Images to learn more about me! </header>
+
+     
+    <div class="header">
+        <h3>Hello. Hover over Images to learn more about me! </h3>
     </div>
     <!-- A. hover text -->
-    <div class="row">
-        <div class="column">
-            <figure class="backGroundImages">
-                <!--figure class used to mark up images-->
-                <img src="/Assets/images/samantha.jpg" alt="Image of Samantha" />
-                <figcaption>
-                    <h3>Samantha</h3>
-                    <p>Majoring in Computer Science at Cal State Los Angeles</p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-        </div>
+    <table>
+        <tr>
+            <td>
+                <div class="row">
+                    <div class="column">
+                        <figure class="backGroundImages">
+                            <!--figure class used to mark up images-->
+                            <img src="/Assets/images/samantha.jpg" alt="Image of Samantha" />
+                            <figcaption>
+                                <h3>Samantha</h3>
+                                <p>Majoring in Computer Science at Cal State Los Angeles</p>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+            </td>
+            <td>
+                <div class="column">
+                    <figure class="backGroundImages">
+                        <img src="Assets/images/cslaDay.jpg" alt="Image of CSLA" />
+                        <figcaption>
+                            <h3>Graduating</h3>
+                            <p>
+                                    &DownArrow; Countdown &DownArrow;<br>
+                                <!-- Graduation Countdown -->
+                                <div class="countDown">
+                                    <p id="demo"></p>
 
-        <div class="column">
-            <figure class="backGroundImages">
-                <img src="Assets/images/cslaDay.jpg" alt="Image of CSLA" />
-                <figcaption>
-                    <h3>Graduating</h3>
-                    <p>
-                        <!-- Graduation Countdown -->
-                        <div class="countDown">
-                            <p id="demo"></p>
+                                    <script>
+                                        // Set the date we're counting down to
+                                        var countDownDate = new Date("May 29, 2021 15:37:25").getTime();
 
-                            <script>
-                                // Set the date we're counting down to
-                                var countDownDate = new Date("May 29, 2021 15:37:25").getTime();
+                                        // Update the count down every 1 second
+                                        var countdownfunction = setInterval(function () {
 
-                                // Update the count down every 1 second
-                                var countdownfunction = setInterval(function () {
+                                            // Get todays date and time
+                                            var now = new Date().getTime();
 
-                                    // Get todays date and time
-                                    var now = new Date().getTime();
+                                            // Find the distance between now an the count down date
+                                            var distance = countDownDate - now;
 
-                                    // Find the distance between now an the count down date
-                                    var distance = countDownDate - now;
+                                            // Time calculations for days, hours, minutes and seconds
+                                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                                    // Time calculations for days, hours, minutes and seconds
-                                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                            // Output the result in an element with id="demo"
+                                            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                                                + minutes + "m " + seconds + "s ";
 
-                                    // Output the result in an element with id="demo"
-                                    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                                        + minutes + "m " + seconds + "s ";
-
-                                    // If the count down is over, write some text 
-                                    if (distance < 0) {
-                                        clearInterval(countdownfunction);
-                                        document.getElementById("demo").innerHTML = "EXPIRED";
-                                    }
-                                }, 1000);
-                            </script>
-                        </div>
-                        <!-- End of Countdown code-->
-
-                    </p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-        </div>
-
-        <div class="column">
-            <figure class="backGroundImages">
-                <img src="/Assets/images/climbing.jpg" alt="Image climbing" />
-                <figcaption>
-                    <h3>Adventurer</h3>
-                    <p>Challenging myself in all aspects of life. </p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-        </div>
-
-        <div class="column">
-                <figure class="backGroundImages">
-                    <img src="/Assets/images/canadaSmall2018.jpg" alt="Canada2018" />
-                    <figcaption>
-                            <a href="index.html"><a href="index.html"><h3>Go back</h3></a></a>
-                            <p>&there4; Contact me</p>
-                    </figcaption>
-                    <a href="#"></a>
-                </figure>
-            </div> 
-    </div>
+                                            // If the count down is over, write some text 
+                                            if (distance < 0) {
+                                                clearInterval(countdownfunction);
+                                                document.getElementById("demo").innerHTML = "EXPIRED";
+                                            }
+                                        }, 1000);
+                                    </script>
+                                </div>
+                                <!-- End of Countdown code-->
+                                Fall 2021
+                            </p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+            </td>
+            <td>
+                <div class="column">
+                    <figure class="backGroundImages">
+                        <img src="/Assets/images/climbing.jpg" alt="Image climbing" />
+                        <figcaption>
+                            <h3>Adventurer</h3>
+                            <p>Challenging myself in all aspects of life. </p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+            </td>
+        
+        </tr>
+    </table>
     <!--End of row-->
-<div class="footer">
-<footer> Thanks for stopping by. <br> 
-    <a href="about.html">
-        <a href="mailto:simpsonnsamantha@yahoo.com">simpsonnsamantha@yahoo.com</a></a><br>
-    &copy; 2019 Samantha Simpson</footer>
-</div>
+
+
+
+    <div class="footer">
+        <footer> Thanks for stopping by. <br>
+            <a href="about.html">
+                <a href="mailto:simpsonnsamantha@yahoo.com">simpsonnsamantha@yahoo.com</a></a><br>
+            &copy; 2019 Samantha Simpson</footer>
+    </div>
 </body>
 
 </html>
