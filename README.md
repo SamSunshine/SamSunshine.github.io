@@ -1,5 +1,5 @@
  
-# Samantha-Company-Site
-Personal Business - TESTING SITE 
+# Samantha Production Site
+Deploed at https://samsunshine.github.io/ & redirect to https://www.samsunshine.dev/. This is the live site on production. 
 
-http://127.0.0.1:5501/About/About.html#home
+For testing, visit https://github.com/SamSunshine/web-dev-testing-SamSunshine
