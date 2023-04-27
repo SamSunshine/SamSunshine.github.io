@@ -1,0 +1,76 @@
+
+/* Styling order is alphabatized. Maintain this for organization purposes. */
+
+a {
+  text-decoration: none;
+}
+.button3 {
+  background-color: #2EB2DD;  
+  border-color: #2EB2DD;
+  color: white; 
+  font-size:26px; 
+  padding: 15px 32px;
+}
+
+.button3:hover {
+  background-color: #008CBA; 
+  border-color: none;
+  color: white; 
+  font-size:26px; 
+  padding: 15px 32px; 
+}
+.button4 {
+background-color: transparent; 
+  border-color: transparent;
+color: #2EB2DD; 
+font-size:26px; 
+padding: 15px 32px;
+}
+
+.button4:hover {
+background-color: #142341; 
+border-color: none;
+color: white; 
+font-size:26px; 
+padding: 15px 32px;
+}
+
+.workDarkBlock{
+    /* background-color: #142341; */
+    background-color: none;
+    border-color: none;
+    color: #E6E9EF;
+    position: relative;
+    text-align: left;
+    top: 0;
+  }
+.workLightBlock{
+    background-color: var(--third-color);
+    color: #142341;
+    border-color: none;
+    position: relative;
+    text-align: left;
+    top: 0;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    text-align: center;
+    padding: 2%;
+  }
+ 
+  .startTable {
+    text-align: left; 
+    vertical-align: top;
+  }
+
+  .paddingLeft {
+    padding-left: 5%;
+  }
+
+  #more {display: none;}
