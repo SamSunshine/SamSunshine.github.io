@@ -1,5 +1,13 @@
 /* Styling for divs */
 /* Styling for divs */
+.link1 {
+  color: var(--link-color1);
+}
+
+.link2 {
+  color: var(--link-color2);
+}
+
 .button-grad1{
   background-image: linear-gradient(to right, #834d9b 0%, #d04ed6  51%, #834d9b  100%);
   border: none!important;
@@ -197,6 +205,17 @@ width: 20%;
 float: left;
 width: 40%;
 padding: 10px;
+}
+/*Cards in licenses and certifications */
+.col-3 {
+background-color: white;
+float: left;
+width: 30%;
+padding: 10px;
+}
+
+.cta:hover{
+  box-shadow: 6px 7px 18px #BED1DB;
 }
 
 /* Clear floats after the columns */
