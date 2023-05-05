@@ -96,6 +96,16 @@ a {
    padding: 18px 32px; 
 }
 
+
+.container3 {
+  border: none!important;
+  transition: 0.5s;
+  background-size: 200% auto;          
+  color: var(--primary-color);
+  overflow: hidden;
+  padding:5%;
+}
+
 .container12 {
   background-size: 200% auto;        
   background: var(--light-block-color);
@@ -134,12 +144,14 @@ h2{
 h3{
   font-size:26px;
   font: normal normal normal 25px/36px Sitka Display;
+  font-weight: normal;
   text-align: left;
 }
 
 h4{
   color: var(--primary-color-text);
-  font-size:20px
+  font-size:20px;
+  font-weight: normal;
 }
 
 h5{   
