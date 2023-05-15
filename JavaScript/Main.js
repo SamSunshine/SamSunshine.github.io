@@ -106,19 +106,30 @@ document.getElementById("defaultOpen").click();
 
 
 // Hamburger menu  
+// function myFunction() {
+//   var x = document.getElementById("myLinks");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
+
+// function openNav() {
+//   document.getElementById("myNav").style.width = "100%";
+// }
+
+// function closeNav() {
+//   document.getElementById("myNav").style.width = "0%";
+// }
+
+
 function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-    x.style.display = "block";
+    x.className = "topnav";
   }
-}
-
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+  
 }
