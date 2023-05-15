@@ -3,18 +3,10 @@
 
 <head>
   <link rel="icon" type="image/png" sizes="16x16" href="/Assets/images/TechSam.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S679T045R5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-S679T045R5');
-</script>
-
-<title>Samantha</title>
+<title>Samantha | All solutions</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/CSS Styling/Main.css">
@@ -25,28 +17,43 @@
   
 <body>
   <div class="container">
-  <!-- HEADER ID TO BRING USER BACK TO TOP ON CTA -->
-  <nav class="bgimg-1 w3-display-container" id="home">
-  <!-- TOP MENU NAVIGATION SECTION (sit on top) -->
+    <!-- start of large nav bar -->
+  <nav class="bgimg-1 w3-display-container topnav" id="home">
   <section>
-    <div class="navbartopMenu"> <!-- w3-top TO navbar-->
+    <div class="navbartopMenu w3-hide-small"> <!-- w3-top TO navbar-->
       <div class="navbar-bar w3-wide w3-padding"> <!-- w3-bar TO navbar-bar-->
         <a href="/" class="w3-bar-item w3-button">Samantha</a>
         <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right w3-hide-small">
-          <!-- <a href="/About/About" class="w3-bar-item w3-button">About</a> -->
           <a href="/Solutions/AllSolns" class="w3-bar-item w3-button">Solutions</a>
-          <!-- <button onclick = "darkmode()" id ="buttonToggle" class="w3-bar-item w3-button">Too dark?</button> -->
           <a href="/#contactMe" class="w3-bar-item w3-button">Contact</a>
         </div>
       </div>
     </div>
   </section>
+  <br>
 </nav>
+<!-- start of small nav bar -->
+<div class="mobile-container w3-mobile w3-hide-medium w3-hide-large">
+  <div class="overlay">
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+      <a href="/Solutions/AllSolns">Solutions</a>
+      <a href="/#contactMe">Contact</a>
+  </div>
+</div>
+</div>
+  <a href="/" class="w3-left mobileNav">Sam</a>
+<span class="mobileNav w3-right" onclick="openNav()">
+  &#9776;</span>
+</div>
+<!-- END TOP MENU NAVIGATION SECTION (sit on top) -->
+
 
 
   <!-- PAGE CONTENT -->
-  <div class="w3-content w3-padding-64" style="max-width:1564px">
+  <div class="w3-content w3-padding-24" style="max-width:1564px">
 
 <!-- START ALL SOLUTIONS SECTION (large) -->
     <!-- nft market solution -->
@@ -172,34 +179,49 @@
 
   </div>
 </section>
-<!-- start small all solutions (hide large/hide medium) -->    
-<section>
-    <div class="w3-padding-large w3-hide-large w3-hide-medium">      
-          <div class="container1"> <!-- start of inside slide -->
-            <div class="w3-half darkText">  
-                <h2><strong><i>NFT Marketplace</i></strong><br></h2>
-                <h3><strong>My roles:</strong> UI/UX web developer & team manager<br><br>RMDS Lab, a data and artificial intelligence (AI) platform, created the first non-fungible token (NFT) marketplace for science and technology intellectual property.<br><br></h3>
-                <button class="button button-grad1 w3-mobile"><a href="/Solutions/NFTMarket">Learn more</a></button>&nbsp;                    
+<!-- start small all solutions (hide large/hide medium) -->     
+  <section>
+    <div class="w3-container w3-hide-large w3-hide-medium">     
+<h2 class="lightText w3-margin w3-padding-16">Solutions I've worked on</h2>
+      <div class="container1 w3-margin"> <!-- start of inside slide -->
+        <div>  
+                <h3><strong><i>NFT Marketplace</i></strong><br></h3>
+                <h5>RMDS Lab, a data and artificial intelligence (AI) platform, created the first non-fungible token (NFT) marketplace for science and technology intellectual property.<br><br><strong>My role:</strong> UI/UX web developer & team manager<br></h5>
+                <button class="button button-grad1 w3-mobile"><a href="/Solutions/NFTMarket">Learn more</a></button>
               </div>
           </div><!-- end of inside slide -->
 <br><br>
-          <div class="container1"> <!-- start of inside slide -->
-              <div class="w3-half darkText">  
-                <h2><strong><i>Property Management Software</i></strong><br></h2>
-                <h3><strong>My roles:</strong> Web developer & designer<br><br>I developed and designed property management software to help organize and manage residential rental properties with Home Sweet Management.
-                  </h3>
-                <button class="button button-grad3 w3-mobile"><a href="/Solutions/PropertyManagement">Learn more</a></button>&nbsp;
+<div class="container1"> <!-- start of inside slide -->
+<div class="darkText"> 
+  <h3><strong><i>Property Management Software</i></strong><br></h3>
+                <h5>I developed and designed property management software to help organize and manage residential rental properties with Home Sweet Management.
+                  <br><br><strong>My role:</strong> Web developer & designer<br></h5>
+                <button class="button button-grad3 w3-mobile"><a href="/Solutions/PropertyManagement">Learn more</a></button>
                  </div>
+      
+              <div>
+                <div class="leftSideText w3-hide-small" style="padding-right:15%; padding-top: 2%;">
+                  <img src="/Assets/images/hsm.png" class="w3-hide-small w3-right" width="650px" height="400px" alt="Icon TBD">
+                </div>
+              </div>
           </div><!-- end of inside slide -->
   <br><br>
           <div class="container1"> <!-- start of inside slide -->
-            <div class="w3-half darkText">   
-                <h2><strong><i>The SAID Testbed</i></strong><br></h2>
-                <h3><strong>My roles:</strong> Triumvirate management with focus on documentation<br><br>Our CSULA senior design team worked for The Aerospace Corporation to develop software components to integrate with and utilize existing industry open-source software components.<br></h3>
-                <button class="button button-grad1 w3-mobile"><a href="/Solutions/SAID">Learn more</a></button>&nbsp;
+            <div class="darkText">   
+                <h3><strong><i>The SAID Testbed</i></strong><br></h3>
+                <h5>Our CSULA senior design team worked for The Aerospace Corporation to develop software components to integrate with and utilize existing industry open-source software components.<br>
+                 <br>
+                  <strong>My role:</strong> Triumvirate management with focus on documentation<br></h5>
+                <button class="button button-grad1 w3-mobile"><a href="/Solutions/SAID">Learn more</a></button>
+              </div>
+      
+              <div>
+                <div class="leftSideText" style="padding-right:15%; padding-top: 2%;">
+                  <img src="/Assets/images/said.png" class="w3-hide-small w3-right"  width="650px" height="400px" alt="Icon TBD">
+                </div>
               </div>
           </div><!-- end of inside slide -->
-
+<br><br>
     </div>
   </section>
 
@@ -224,8 +246,8 @@
 
   </div>
   </section>
-</body>
+</body>  
+<script type="text/javascript" src="/JavaScript/About.js"></script>
+<script type="text/javascript" src="/JavaScript/Main.js"></script>
 
-    <script type="text/javascript" src="/JavaScript/Main.js"></script>
-  
 </html>
