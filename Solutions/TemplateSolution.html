@@ -22,7 +22,7 @@
     <div class="container">
         <!-- START OF MAIN NAVIGATION MENU -->
         <!-- large main nav menu -->
-        <nav class="bgimg-1 w3-display-container topnav" id="home">
+        <nav class="bgimg-1 w3-hide-small w3-display-container topnav" id="home">
             <section>
                 <div class="navbartopMenu w3-hide-small"> <!-- w3-top TO navbar-->
                     <div class="navbar-bar w3-wide w3-padding"> <!-- w3-bar TO navbar-bar-->
@@ -37,16 +37,19 @@
             <br>
         </nav>
         <!-- small main nav menu -->
-        <nav class="bgimg-1 w3-display-container w3-hide-large w3-hide-medium w3-center" id="home">
+        <nav class="navbartopMenuMobile bgimg-1 w3-display-container w3-hide-medium w3-hide-large" id="home">
           <section>
-            <div class="navbartopMenuMobile w3-hide-large"> <!-- w3-top TO navbar-->
-                <div class="navbar-bar w3-wide w3-padding"> <!-- w3-bar TO navbar-bar-->
-                    <a href="/" style="padding-right: 8%;">Samantha</a>
-                    <a href="/Solutions/AllSolns" style="padding-right: 8%;">Solutions</a>
-                    <a href="/Webform/contacther" style="padding-right: 8%;">Contact</a>
-                </div>
-            </div>
-        </section>
+              <div class="w3-hide-large w3-center"> <!-- w3-top TO navbar-->
+                <a href="/" class="w3-left paddingLeft"><img src="/Assets/images/TechSam.png" width="45px" height="45px">&nbsp;&nbsp;&nbsp;Samantha</a>&nbsp;
+      <span class="w3-right paddingRight">
+                <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class="w3-right"><img src="/Assets/logos/linkedin.jpg" width="40px" height="40px"></a>&nbsp;
+                <a href="https://github.com/SamSunshine" style="padding-right: 1%; padding-left: 1%;"><img src="/Assets/logos/github-mark.png" width="40px" height="40px"></a>&nbsp;
+                <a href="https://trailblazer.me/id/samsunshine"><img src="/Assets/logos/salesforce.png" width="40px" height="40px"></a>&nbsp;
+  </span>     
+                  </div>
+              </div>
+          </section>
+          <br>
       </nav>
   <!-- END TOP MENU NAVIGATION SECTION (sit on top) -->
   
@@ -204,7 +207,7 @@
                         <img src="/Assets/logos/saidTranparentLogoMobile.png" class="w3-hide-large w3-hide-small">
 
                     <!-- START OF SMALL SECTION  -->
-                    <div class="w3-hide-large w3-hide-medium">
+                    <div class="w3-hide-large w3-hide-medium w3-padding-32">
                         <h2><strong>
                                 NFT Marketplace
                             </strong></h2>
@@ -499,39 +502,30 @@
     <!-- END OF CONTACT FORM SECTION -->
 
 
-      <!-- FOOTER SECTION (sit on bottom) -->
-      <!-- large footer -->
-      <section>
-        <div class="w3-row w3-center w3-hide-small w3-section">
-          <div class="w3-center w3-padding-16">
-            <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class="fa"><img src="/Assets/logos/linkedin.jpg" width="50px" height="50px"></a>&nbsp;
-            <a href="https://github.com/SamSunshine" class="fa"><img src="/Assets/logos/github-mark-white.png" width="50px" height="50px"></a>&nbsp;
-            <a href="https://trailblazer.me/id/samsunshine" class="fa"><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
-          </div>
-
-          <div class="w3-center">  
-            <a href="https://github.com/SamSunshine/Samantha-Company-Site" class="w3-bar-item lightText">Site Design &
-              Build &#169; Samantha Simpson &hearts; 2023</a>
-          </div>
-          <a href="#home" class="w3-bar-item lightText">&#8593 &nbsp;Back to top &nbsp; &#8593 </a>
-        </div>
-  </section>
-<!-- small footer -->
+  <!-- FOOTER SECTION (sit on bottom) -->
   <section>
-    <div class="w3-row w3-center w3-hide-large w3-hide-medium w3-mobile w3-section">
-      <div class="w3-center">
-        <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class="fa"><img src="/Assets/logos/linkedin.jpg" width="50px" height="50px"></a>&nbsp;
-        <a href="https://github.com/SamSunshine" class="fa"><img src="/Assets/logos/github-mark-white.png" width="50px" height="50px"></a>&nbsp;
-        <a href="https://trailblazer.me/id/samsunshine" class="fa"><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
+    <br><br><br>
+    <div class="footerMenu w3-row w3-center w3-hide-small w3-section">
+      <div class="w3-center w3-padding-16">
+        <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class=""><img src="/Assets/logos/linkedin.jpg" width="50px" height="50px"></a>&nbsp;
+        <a href="https://github.com/SamSunshine" class=""><img src="/Assets/logos/github-mark-white.png" width="50px" height="50px"></a>&nbsp;
+        <a href="https://trailblazer.me/id/samsunshine" class=""><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
       </div>
 
       <div class="w3-center">  
-        <a href="https://github.com/SamSunshine/Samantha-Company-Site" class="w3-bar-item lightText">Site Design &
+        <a href="https://github.com/SamSunshine/Samantha-Company-Site" class="w3-bar-item">Site Design &
           Build &#169; Samantha Simpson &hearts; 2023</a>
       </div>
-      <a href="#home" class="w3-bar-item lightText">&#8593 &nbsp;Back to top &nbsp; &#8593 </a>
+      <a href="#home" class="w3-bar-item">&#8593 &nbsp;Back to top &nbsp; &#8593 </a>
     </div>
-</section>
+<!-- small foot -->
+    </section>        
+    <span class="footerMenuMobile w3-hide-large w3-hide-medium">
+        <a href="/" class="w3-left w3-button">About</a>
+         <a href="/Solutions/AllSolns" class=" w3-center w3-button">Solutions</a>
+         <a href="/Webform/contacther" class=" w3-right w3-button">Contact</a>
+      </span> 
+<!-- END FOOTER -->
 
 
 
