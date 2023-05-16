@@ -26,9 +26,10 @@ body:not(dark-mode){
 }
 
 .mobileNav{
-  font-size:30px;
+  background-color: var(--primary-background);
   cursor:pointer;
   color: var(--primary-color);
+  font-size:30px;
 }
 
 .centerDiv {
@@ -631,7 +632,8 @@ a{
 .w3-rest{overflow:hidden}.w3-stretch{margin-left:-16px;margin-right:-16px}
 
 .w3-content,.w3-auto{
-  margin-left:auto;margin-right:auto
+  margin-left:auto;
+  margin-right:auto
 }
 .w3-content{
   max-width:980px
@@ -645,7 +647,8 @@ a{
 
 @media (max-width:600px){
   .w3-modal-content{
-  margin:0 10px;width:auto!important
+  margin:0 10px;
+  width:auto!important
 }
 .w3-modal{
   padding-top:30px}
@@ -679,9 +682,17 @@ a{
   opacity: 1;
 }
 .navbartopMenuMobile{
-  color: var(--primary-color);
-  font: normal normal normal 16px Sitka Display;
+  background-color: var(--primary-color);
+  border-bottom: 4px solid #A6BACF;
+  color: var(--secondary-color);
+  font: normal normal normal 18px Sitka Display;
+  left: 0;
+  top: 0;
+  right: 0;
   opacity: 1;
+  padding: 2%;
+  position: absolute;
+  width: 100vw;
 }
 /* test section  */
 .topnav {
@@ -875,6 +886,12 @@ a{
 .w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
 .w3-text-black,.w3-hover-text-black:hover{color:#000!important}
 
+.paddingLeft {
+  padding-left: 5%;
+}
+.paddingRight{
+  padding-right: 5%;
+}
 
 .footerMenu {
   background-color: transparent;
@@ -888,13 +905,14 @@ a{
 
 .footerMenuMobile {
     bottom: 0;
-    width: 100%;
+    background-color: var(--primary-color); 
+    border-top: 4px solid #A6BACF;
+    color: var(--secondary-color);
+    left: 0;
     text-align: center;
     padding: 8%;
     position: fixed; 
-    border-top: 4px solid #A6BACF;
-    background-color: var(--primary-color); 
-    color: var(--secondary-color);
+    width: 100vw;
 }
 
 .footerNav {
