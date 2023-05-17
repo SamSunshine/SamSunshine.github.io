@@ -682,9 +682,8 @@ a{
   opacity: 1;
 }
 .navbartopMenuMobile{
-  background-color: var(--primary-color);
-  border-bottom: 4px solid #A6BACF;
-  color: var(--secondary-color);
+  background-color: transparent;
+  color: var(--primary-color);
   font: normal normal normal 18px Sitka Display;
   left: 0;
   top: 0;
@@ -910,9 +909,20 @@ a{
     color: var(--secondary-color);
     left: 0;
     text-align: center;
-    padding: 8%;
+    padding: 5%;
     position: fixed; 
     width: 100vw;
+}
+
+.menuMobile {
+  bottom: 0;
+  background-color: var(--primary-color); 
+  border-top: 4px solid #A6BACF;
+  color: var(--secondary-color);
+  left: 0;
+  text-align: center;
+  padding: 8%;
+  width: 100vw;
 }
 
 .footerNav {
