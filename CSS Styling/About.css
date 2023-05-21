@@ -8,6 +8,14 @@
   color: var(--link-color2);
 }
 
+.link3 {
+  color: var(--primary-color);
+  text-underline-position: under; 
+}
+.link3:hover{
+  color: var(--highlight-color);
+}
+
 .button-grad1{
   background-image: linear-gradient(to right, #834d9b 0%, #d04ed6  51%, #834d9b  100%);
   border: none!important;
@@ -103,19 +111,10 @@ text-decoration: none;
 }
 .button2 {
 background-color: transparent; 
-  border-color: #FF4CFF;
-  border-radius: 10px;
+  border-color: transparent;
   color: #FF4CFF;
   font: normal normal normal 32px/46px Sitka Display;
   padding: 18px 32px; 
-}
-
-.button2:hover {
-background-color: #2EB2DD;; 
-border-color: #2EB2DD;
-color: whitesmoke; 
-font: normal normal normal 32px/46px Sitka Display;
-padding: 18px 32px; 
 }
 
 .button3 {
@@ -170,12 +169,13 @@ padding: 18px 32px;
 .button6 {
   background-color: transparent; 
     border-color: transparent;
-    color: var(--highlight-color);
+    color: var(--secondary-color);
     font: normal normal normal 32px/46px Sitka Display;
     padding: 18px 32px; 
   }
   
-  .button6:hover {
+  
+  .button6:hover, .button2:hover {
     border-color: none;
     color: #C417DB;
   font: normal normal normal 32px/46px Sitka Display;
@@ -189,7 +189,22 @@ padding: 18px 32px;
       font: normal normal normal 32px/46px Sitka Display;
       padding: 18px 32px; 
     }
+    .button7:hover {
+      background-color: transparent; 
+        border-color: transparent;
+        color: var(--highlight-color);
+        cursor: pointer;
+        font: normal normal normal 32px/46px Sitka Display;
+        padding: 18px 32px; 
+      }
   .active3 {
+    background-color: var(--light-block-color); 
+    border-color: none;
+  color: var(--secondary-color); 
+  font: normal normal normal 32px/46px Sitka Display;
+  padding: 18px 32px; 
+  }
+  .active3:hover {
     background-color: var(--light-block-color); 
     border-color: none;
   color: var(--secondary-color); 

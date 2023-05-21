@@ -23,6 +23,7 @@ body:not(dark-mode){
   --gradient4: linear-gradient(to right, #ec7b2a 0%, hsl(31, 95%, 68%)  51%, #ec7b2a  100%);
   --link-color1: #ec7b2a;
   --link-color2: #1FA2FF;
+  
 }
 
 .mobileNav{
@@ -119,7 +120,6 @@ div {
   padding: 18px 32px;
 
   }
-  
   
 /*START COMMENTED OUT LIGHT/DARK MODE FOR NOW */
 /* Not dark mode = (light mode)  */
