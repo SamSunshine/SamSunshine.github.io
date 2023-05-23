@@ -191,7 +191,7 @@ padding: 18px 32px;
     }
     .button7:hover {
       background-color: transparent; 
-        border-color: transparent;
+        border-color: var(--highlight-color);;
         color: var(--highlight-color);
         cursor: pointer;
         font: normal normal normal 32px/46px Sitka Display;
@@ -333,7 +333,7 @@ text-align: left;
 }
 .introToSamantha {
   color: var(--primary-color); 
-  font: normal normal normal 38px/44px Sitka Heading;
+  font: normal normal normal 35px/40px Sitka Heading;
   text-align: left;
 }
 .whatICanDo{
@@ -473,7 +473,7 @@ background-size: 200% auto;
 box-shadow: 6px 13px 18px #ADAEC8C4;
 overflow: hidden;
 padding: 50px 50px;
-color: #6A7B88;
+color: var(--secondary-color);
 transition: 0.5s;
 }
 /* Style the buttons */
