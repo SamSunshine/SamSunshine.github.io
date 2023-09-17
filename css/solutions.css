@@ -1,0 +1,161 @@
+
+/* Styling order is alphabatized. Maintain this for organization purposes. */
+
+a {
+  text-decoration: none;
+}
+.button3 {
+  background-color: #2EB2DD;  
+  border-color: #2EB2DD;
+  color: white; 
+  font-size:26px; 
+  padding: 15px 32px;
+}
+
+.button3:hover {
+  background-color: #008CBA; 
+  border-color: none;
+  color: white; 
+  font-size:26px; 
+  padding: 15px 32px; 
+}
+.button4 {
+background-color: transparent; 
+  border-color: transparent;
+color: #2EB2DD; 
+font-size:26px; 
+padding: 15px 32px;
+}
+
+.button4:hover {
+background-color: #142341; 
+border-color: none;
+color: white; 
+font-size:26px; 
+padding: 15px 32px;
+}
+
+.workDarkBlock{
+    /* background-color: #142341; */
+    background-color: none;
+    border-color: none;
+    color: #E6E9EF;
+    position: relative;
+    text-align: left;
+    top: 0;
+  }
+.workLightBlock{
+    background-color: var(--third-color);
+    color: #142341;
+    border-color: none;
+    position: relative;
+    text-align: left;
+    top: 0;
+  }
+
+  .project-heading {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #57C2FF 51%, #1FA2FF 100%);
+    color: var(--third-color);
+    font: normal normal normal 38px/44px Display;
+    padding: 1%;
+    border-radius: 5px;
+  }
+
+  .project-title {
+    padding-left: 5%;
+  }
+
+  .project-description {
+    font: normal normal normal 25px/36px Display;
+    opacity: .5;
+    padding-left: 5%;
+  }
+
+  .project-image-description {
+    font: normal normal normal 25px/36px Display;
+    padding-left: 5%;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    text-align: center;
+    padding: 1%;
+  }
+ 
+  .startTable {
+    text-align: left; 
+    vertical-align: top;
+  }
+
+  .paddingLeft {
+    padding-left: 5%;
+  }
+
+  #more {display: none;}
+
+  #nftMarketSection.fade-in-section-soln {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 9.5s ease, transform 1s ease; /* Adjust the transition duration as needed */
+  }
+  
+  #nftMarketSection.fade-in-section-soln.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  #propertyManagementSection.fade-in-section-soln {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Adjust the transition duration as needed */
+  }
+  
+  #propertyManagementSection.fade-in-section-soln.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  #saidTestbedSection.fade-in-section-soln {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 2s ease; /* Adjust the transition duration as needed */
+  }
+  
+  #saidTestbedSection.fade-in-section-soln.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .soln-main-title{
+    background-size: 200% auto;
+    background-color: rgb(248, 32, 255, 0.3);/* Use RGBA color with opacity */
+    /* border: solid 2px rgba(255, 255, 255, 0.3);  */
+    border-radius: 10px;
+    color:  var(--primary-color);      
+    font: normal normal normal 32px/46px Sitka Display;
+    opacity: .8;
+    padding: 18px 32px;
+    text-align: center;
+    }
+
+  .soln-title {
+    color: var(--primary-color);
+    font-size: 45px;
+    padding-left: 3%;
+  }
+
+  .soln-role {
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .soln-width {
+    float: left;
+    width: 30%;
+    display: inline-block;
+  }

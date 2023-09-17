@@ -6,9 +6,14 @@
   <title>Samantha</title>
   <meta charset="UTF-8">
   <meta name="author" content="Samantha Simpson">
+  <meta name="keywords"
+    content="Frontend developer, UI/UX, Web developer, Samantha Simpson website, Samantha Simpsons portfolio">
+  <meta name="description"
+    content="Unlocking Innovation through Exceptional Web Development | Elevate Your Digital Presence with a Talented Web Developer | Crafting Engaging and Impactful Experiences | Let's Transform Ideas into Reality with Cutting-Edge Web Solutions | Your Vision, My Expertise: Empowering Businesses with Stunning Websites">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/CSS Styling/Main.css">
-  <link rel="stylesheet" href="/CSS Styling/About.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/about.css">
+  <link rel="stylesheet" href="/css/mobile.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -25,188 +30,308 @@
 
 <body>
   <!-- START LARGE UI -->
-    <section>
-  <div class="container w3-hide-medium w3-hide-small">
+  <section class="w3-hide-small">
+    <!-- START TOP MENU NAVIGATION -->
+    <!-- large main nav menu -->
+    <nav class="bgimg-1 w3-display-container topnav" id="home">
+      <section>
+        <div class="navbartopMenu w3-hide-small"> <!-- w3-top TO navbar-->
+          <div class="navbar-bar w3-wide w3-padding"> <!-- w3-bar TO navbar-bar-->
+            <div class="w3-right w3-hide-small">
+              <!-- <a href="/Solutions/Designs" class="w3-bar-item w3-button fade-in-image"
+                style="color: var(--primary-color);">Designs</a> -->
+              <a href="/solutions/all-solutions" class="w3-bar-item w3-button fade-in-image"
+                style="color: var(--primary-color);">Solutions</a>
+              <a href="/solutions/licenses-and-certifications" class="w3-bar-item w3-button fade-in-image"
+                style="color: var(--primary-color);">Credentials</a>
+              <a href="/webform/contact-her" class="w3-bar-item w3-button fade-in-image"
+                style="color: var(--primary-color);">Contact</a>
+              <span class="tooltipBottom"> <a class="w3-bar-item w3-button fade-in-image email"
+                  style="color: var(--primary-color)"
+                  href="mailto:?subject=Check out Samantha's Portfolio &body=https://www.samsunshine.dev/"
+                  target="_blank">Share <i class="fa fa-paper-plane-o"
+                    style="color: var(--primary-color)"></i></a>&nbsp;&nbsp;&nbsp;
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+    </nav>
 
-        <!-- START TOP MENU NAVIGATION -->
-        <!-- large main nav menu -->
-        <nav class="bgimg-1 w3-display-container topnav" id="home">
-          <section>
-              <div class="navbartopMenu w3-hide-small"> <!-- w3-top TO navbar-->
-                  <div class="navbar-bar w3-wide w3-padding"> <!-- w3-bar TO navbar-bar-->
-                      <a href="/" class="w3-bar-item w3-button">Samantha</a>
-                      <div class="w3-right w3-hide-small">
-                          <a href="/Solutions/AllSolns" class="w3-bar-item w3-button">Solutions</a>
-                          <a href="/#contactMe" class="w3-bar-item w3-button">Contact</a>
-                          <span class="tooltipBottom"> <a class="email" href="mailto:?subject=Check out Samantha, the software engineer's website &body=https://www.samsunshine.dev/" target="_blank"><i class="fa fa-paper-plane-o"></i></a>&nbsp;&nbsp;&nbsp;
-                          </span>                         
-                      </div>
-                  </div>
-              </div>
-          </section>
-          <br>
-        </nav>
 
-
-      <div class="w3-content" style="max-width:1564px">
+    <div class="w3-content" style="max-width:1564px">
       <header>
         <section>
           <div class="w3-container w3-padding-48 w3-hide-small w3-hide-medium w3-margin">
             <div class="w3-half w3-padding-32">
-              <div class="mainTitle">Hello, I'm Samantha</div>
-              <div class="subTitle">SOFTWARE ENGINEER</div>
-               <h2>
-                <div class="introToSamantha">
-                   I create exceptional digital adventures. My specialties are <em>UI/UX web design</em> and <em>front-end web development</em>.
-                </div>
-              </h2>
-<br>
-              <button class="button-grad1"><a href="/#contactMe">Let's talk</a></button>
-              &nbsp;&nbsp;&nbsp;&nbsp;
-             &nbsp;&nbsp;&nbsp;
-              <div class="tooltip"> <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class="tooltip"><img src="/Assets/logos/LI-In-Bug.png" width="55px" height="50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span class="tooltiptext">
-                  <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/">View LinkedIn</a>
-                </span>
+              <div class="mainTitle highlight">
+                Hello, I'm Samantha!
               </div>
-              <div class="tooltip"> 
-                    <a href="https://github.com/SamSunshine" class=""><img src="/Assets/logos/github-mark-white.png" width="50px"   height="50px"></a>&nbsp;&nbsp;&nbsp;
-                  <span class="tooltiptext">
-                      <a href="https://github.com/SamSunshine">View Github</a>
-                </span>
+              <div class="subTitle">
+                <span class="subTitleBox">Software Engineer</span>
+                <span class="subTitleBox">Researcher</span>
+                <span class="subTitleBox">Front-End Developer</span>
+                <span class="subTitleBox">UI/UX Enthusiast</span>
+                <span class="subTitleBox">Digital Designer</span>
+                <span class="subTitleBox">Project Manager</span>
               </div>
-              <div class="tooltip"> 
-                <a href="https://trailblazer.me/id/samsunshine" class=""><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
-                <span class="tooltiptext">
-                  <a href="https://trailblazer.me/id/samsunshine">View Trailblazer</a>
-                </span>
+              <div class="introToSamantha">
+                Welcome to my digital playground, where technology meets artistry. I specialize in digital creations,
+                turning ideas into reality.
               </div>
-              <!-- <button class="button7"><a href="/About/her">Download resume</a></button>&nbsp;&nbsp; -->
+              <br>
+              <section>
+                <button class="button-grad2"><a href="/#contactMe">Say hello &rarr;</a></button>
+              </section>
             </div>
 
-            <div>
-              <div class="leftSideText" style="padding-right: 8%;"><br>
-                <img src="/Assets/gifs/samantha.gif" class="w3-hide-small w3-hide-medium w3-right" width="520px"
-                  height="520px" alt="Tech Self">
-              </div>
+            <div class="leftSideText" style="padding-right: 2%; padding-top: 2%;">
+              <!-- <img src="/Assets/gifs/samantha.gif" class="w3-hide-small w3-hide-medium w3-right fade-in-image" width="520px"
+                  height="520px" alt="Tech Self"> -->
+              <img src="/Assets/images/samsunshine.png" class="w3-hide-small w3-hide-medium w3-right" width="740px"
+                height="560px" alt="Tech Self">
             </div>
-          </div>
         </section>
       </header>
 
-      <!-- Let's get technical section - large -->
-     <section>
-        <div class="w3-container w3-padding-32 w3-hide-small w3-hide-medium" id="moreAboutMe">
-          <br><br>
+      <!-- all solutions - Bridging Imagination and Innovation -->
+      <section>
+        <div class="w3-content w3-hide-small w3-hide-medium w3-padding-64" style="max-width:1564px">
           <h1>
-            <div class="w3-padding-16 lightText w3-hide-small" style="font-size: 55px;">
-              <strong>Let's get technical</strong><br>
+            <div class="lightText w3-center" style="font-size: 55px"><em><span class="slide-up-section">A Showcase of
+                  Select Solutions</span></em><br>
             </div>
           </h1>
 
-          <!-- toggle tabs -->
-          <div class="tab">
-            <button class="tablinks button6 active3 w3-mobile" onclick="openCity(event, 'techSection')"
-              id="defaultOpen">Recently used technologies</button>
-            <button class="tablinks button6 w3-mobile" onclick="openCity(event, 'licenseCertSection')">Licenses &
-              Certifications</button>
+          <div class="">
+            <div class="w3-padding-16" style="text-align:center">
+              <span class="soln" onclick="currentSlide(1)">NFT Marketpalce</span>
+              <span class="soln" onclick="currentSlide(2)">Property Management</span>
+              <span class="soln" onclick="currentSlide(3)">SAID Testbed</span>
+            </div>
+
+            <div class="w3-padding-large container5 w3-hide-small w3-hide-medium lightText">
+              <br>
+              <div class="slideshow-container w3-padding-large">
+
+                <!-- nft marketplace project slide -->
+                <div class="mySlides fade">
+                  <div> <!-- start of inside slide -->
+                    <div class="container4">
+                      <div class="w3-half w3-padding-16">
+                        <h2>My roles <span class="opactiy-third"><br><em>UI/UX web developer & team
+                              manager</em></span></h2>
+                        <h3>Overview <span class="opactiy-third"><br>RMDS Lab, a data and
+                            artificial
+                            intelligence (AI) platform, created the first non-fungible token (NFT) marketplace for
+                            science and technology intellectual property.<br></span>
+                        </h3>
+                        <button class="button-grad3" style="padding-left: 5%;"><a href="/solutions/nft-market">Learn
+                            more</a></button>
+                        <br>
+                      </div>
+
+                      <div>
+                        <div class="leftSideText w3-hide-small w3-padding-64"
+                          style="padding-right:2%; padding-bottom: 2%;">
+                          <img src="/Assets/images/laptop-nftmarket.png" class="w3-hide-small w3-right" width="650px"
+                            height="400px" alt="Icon TBD">
+                        </div>
+                        <br><br>
+                      </div>
+                    </div>
+                  </div><!-- end of inside slide -->
+                </div>
+
+                <!-- property management project slide -->
+                <div class="mySlides fade">
+                  <div> <!-- start of inside slide -->
+                    <div class="container4">
+                      <div class="w3-half w3-padding-16">
+                        <h2>My roles <span class="opactiy-third"><br><em>Web developer &
+                              designer</em></span></h2>
+                        <h3>Overview<br> <span class="opactiy-third">Property management software
+                            established to help organize
+                            and manage residential rental properties within Home Sweet Management. </span>
+                        </h3>
+                        <button class="button-grad2" style="padding-left: 5%;"> <a
+                            href="/solutions/property-management">Learn
+                            more</a></button>
+                        <br>
+                      </div>
+
+                      <div>
+                        <div class="leftSideText w3-hide-small w3-padding-64"
+                          style="padding-right:2%; padding-bottom: 2%;">
+                          <img src="/Assets/images/hsm.png" class="w3-hide-small w3-right" width="650px" height="400px"
+                            alt="Icon TBD">
+                        </div>
+
+                      </div>
+                    </div>
+                  </div><!-- end of inside slide -->
+                </div>
+
+                <!-- said testbed project slide -->
+                <div class="mySlides fade">
+                  <div> <!-- start of inside slide -->
+                    <div class="container4">
+                      <div class="w3-half w3-padding-16">
+                        <h2>My roles <span class="opactiy-third"><br><em>Triumvirate management &
+                              documentation team member</em></span></h2>
+
+                        <h3>Overview<br> <span class="opactiy-third">Our CSULA senior design team
+                            worked for
+                            The Aerospace Corporation to
+                            develop software components to integrate with and utilize existing industry open-source
+                            software components.<br></span>
+                        </h3>
+                        <button class="button-grad4" style="padding-left: 5%;"> <a
+                            href="/solutions/satellite-anomaly-injection-and-detection">Learn
+                            more</a></button>
+                        <br>
+                      </div>
+
+                      <div>
+                        <div class="leftSideText" style="padding-right:2%; padding-top: 2%;">
+                          <img src="/Assets/images/said.png" class="w3-hide-small w3-right" width="650px" height="400px"
+                            alt="Icon TBD">
+                        </div>
+                        <br><br>
+                      </div>
+                    </div>
+                  </div><!-- end of inside slide -->
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+              </div>
+            </div>
           </div>
 
-          <!-- tech tab section -->
-          <div id="techSection" class="tabcontent centerDiv container2">
+        </div>
+      </section>
 
-            <section>
-              <div class="w3-container w3-quarter w3-margin" style="padding-left: 5%" id="credits">
-                <h2>Languages</h2>
-                <table>
-                  <tr>
-                    <th>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/html.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                        &nbsp; HTML<br>
-                      </div>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/css.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                        &nbsp; CSS<br>
-                      </div>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/java-script.png" class="w3-left" height="40px" width="40px"
-                          alt="Icon TBD">
-                        &nbsp; JavaScript<br>
-                      </div>
-                    </th>
-                  </tr>
-                </table>
-              </div>
+      <!-- Let's get technical section - large -->
+      <section>
+        <div class="w3-container w3-padding-32 w3-hide-small w3-hide-medium" id="moreAboutMe">
+          <br><br><br>
+          <h1>
+            <div class="slide-up-section-2 lightText w3-center" style="font-size: 55px"><em><span class="">Empowering
+                  Proficiencies</span></em></div>
+          </h1>
+        </div>
 
-              <div class="w3-container w3-quarter w3-margin" style="padding-left: 5%" id="credits">
-                <h2>Frameworks</h2>
-                <table>
-                  <tr>
-                    <th>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/vue.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                        &nbsp; Vue.Js <br>
-                      </div>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/drupal.png" class="w3-left" height="40px" width="30px" alt="Icon TBD">
-                        &nbsp; Drupal<br>
-                      </div>
-                    </th>
-                  </tr>
-                </table>
-              </div>
 
-              <div class="w3-container w3-quarter w3-margin" style="padding-left: 5%" id="credits">
-                <h2>Tools/Platforms</h2>
-                <table>
-                  <tr>
-                    <th>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/github-mark.png" class="w3-left" height="40px" width="40px"
-                          alt="Icon TBD">
-                        &nbsp; Git <br>
-                      </div>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/chrome.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                        &nbsp; DevTools <br>
-                      </div>
-                    </th>
-                  </tr>
-                </table>
-              </div>
 
-              <div class="w3-container w3-quarter w3-margin" style="padding-left: 5%" id="credits">
-                <h2>Design</h2>
-                <table>
-                  <tr>
-                    <th>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/xd.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                        &nbsp; Adobe: XD<br>
-                      </div>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/ai.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                        &nbsp; Adobe: Ai<br>
-                      </div>
-                      <div class="techTitle w3-padding-16">
-                        <img src="/Assets/logos/ps.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                        &nbsp; Adobe: Ps
-                      </div>
-                    </th>
-                  </tr>
-                </table>
-              </div>
-            </section>
-          </div>
-
-          <!-- licenses tab section -->
-          <div id="licenseCertSection" class="tabcontent container2">
-            <!-- <h2>Education, licenses & certifications:</h2> -->
-
+        <!-- tech tab section -->
+        <div id="techSection" class="w3-round-large">
+          <section class="w3-hide-medium w3-hide-small">
             <section>
               <div class="row">
-                <div class="col-3 w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
+                <div class="w3-container w3-quarter w3-margin lightText" style="padding-left: 2%" id="credits">
+                  <!-- <h2>Languages</h2> -->
+                  <table>
+                    <tr>
+                      <th>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/html.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; HTML<br>
+                        </div>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/css.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; CSS<br>
+                        </div>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/java-script.png" class="w3-left" height="40px" width="40px"
+                            alt="Icon TBD">
+                          &nbsp; JavaScript<br>
+                        </div>
+                      </th>
+                    </tr>
+                  </table>
+                </div>
+
+                <div class="w3-container w3-quarter w3-margin lightText" style="padding-left: 2%" id="credits">
+                  <!-- <h2>Frameworks</h2> -->
+                  <table>
+                    <tr>
+                      <th>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/vscode.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; Visual Studio<br>
+                        </div>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/drupal.png" class="w3-left" height="40px" width="30px" alt="Icon TBD">
+                          &nbsp; Drupal<br>
+                        </div>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/vue.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; Vue.Js <br>
+                        </div>
+                      </th>
+                    </tr>
+                  </table>
+                </div>
+
+                <div class="w3-container w3-quarter w3-margin lightText" style="padding-left: 2%" id="credits">
+                  <!-- <h2>Tools/Platforms</h2> -->
+                  <table>
+                    <tr>
+                      <th>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/github-mark-white.png" class="w3-left" height="40px" width="40px"
+                            alt="Icon TBD">
+                          &nbsp; Git <br>
+                        </div>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/chrome.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; DevTools <br>
+                        </div>
+                      </th>
+                    </tr>
+                  </table>
+                </div>
+
+                <div class="w3-container w3-quarter w3-margin lightText" style="padding-left: 2%" id="credits">
+                  <!-- <h2>Design Systems</h2> -->
+                  <table>
+                    <tr>
+                      <th>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/xd.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; Adobe: XD<br>
+                        </div>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/ai.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; Adobe: Ai<br>
+                        </div>
+                        <div class="techTitle w3-padding-16">
+                          <img src="/Assets/logos/ps.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                          &nbsp; Adobe: Ps
+                        </div>
+                      </th>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </section>
+            <br><br><br>
+            <br><br><br>
+
+
+            <!--  Licenses & Certifications  -->
+            <section class="credential-section w3-padding-small">
+              <h1>
+                <div class="lightText w3-center" style="font-size: 55px"><em><span class="">Earned Licenses &
+                      Certifications</span></em></div>
+              </h1>
+
+              <div class="row paddingLeft">
+                <div class="credential-box w3-round-large col-3 w3-third w3-padding-24 w3-margin"
+                  style="padding-left: 1%" id="credits">
                   <table>
                     <tr>
                       <th>
@@ -215,7 +340,7 @@
                         </div>
                       </th>
                       <th>
-                        <div class="certTitle">Bachelor of Science - BS,<br> Computer Science</div>
+                        <div class="certTitle">Bachelor of Science, <br>Computer Science</div>
                         <div class="certSource">Cal State LA College of ECST<br>
                         </div>
                       </th>
@@ -223,7 +348,8 @@
                   </table>
                 </div>
 
-                <div class="col-3 w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
+                <div class="credential-box w3-round-large col-3 w3-third w3-padding-24 w3-margin"
+                  style="padding-left: 1%" id="credits">
                   <table>
                     <tr>
                       <th>
@@ -232,7 +358,7 @@
                         </div>
                       </th>
                       <th>
-                        <div class="certTitle">Associate of Science - AS,<br> Computer Science</div>
+                        <div class="certTitle">Associate of Science, <br>Computer Science</div>
                         <div class="certSource">Chaffey College<br>
                         </div>
                       </th>
@@ -240,7 +366,8 @@
                   </table>
                 </div>
 
-                <div class="col-3 w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
+                <div class="credential-box w3-round-large col-3 w3-third w3-padding-24 w3-margin"
+                  style="padding-left: 1%" id="credits">
                   <table>
                     <tr>
                       <th>
@@ -249,7 +376,7 @@
                         </div>
                       </th>
                       <th>
-                        <div class="certTitle">Associate of Science - AS,<br> Physics</div>
+                        <div class="certTitle">Associate of Science,<br> Physics</div>
                         <div class="certSource">Chaffey College<br>
                         </div>
                       </th>
@@ -258,8 +385,9 @@
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-3 cta w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
+              <div class="row paddingLeft">
+                <div class="credential-box w3-round-large col-3 cta w3-third w3-padding-24 w3-margin"
+                  style="padding-left: 1%" id="credits">
                   <table>
                     <tr>
                       <th>
@@ -278,7 +406,8 @@
                   </table>
                 </div>
 
-                <div class="col-3 cta w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
+                <div class="credential-box w3-round-large col-3 cta w3-third w3-padding-24 w3-margin"
+                  style="padding-left: 1%" id="credits">
                   <table>
                     <tr>
                       <th>
@@ -289,7 +418,7 @@
                       <th>
                         <div class="certTitle">Design Thinking: <br>Understanding the Process<br></div>
                         <div class="certSource">LinkedIn<br>
-                          <a href="https://www.linkedin.com/learning/certificates/9236c646dd272b81b869868c0c3c6f8b7eaa544e5154c39b81b481e04258b394?u=35553996"
+                          <a href="https://www.linkedin.com/learning/certificates/78848ed4e7cfb253a6f3c4365780ecdb2eac0f4d5e2a862bd1e19dcb4217a761"
                             class="link2" target=”_blank”>View credential</a>
                         </div>
                       </th>
@@ -297,7 +426,8 @@
                   </table>
                 </div>
 
-                <div class="col-3 w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
+                <div class="credential-box w3-round-large col-3 w3-third w3-padding-24 w3-margin"
+                  style="padding-left: 1%" id="credits">
                   <table>
                     <tr>
                       <th>
@@ -306,894 +436,436 @@
                         </div>
                       </th>
                       <th>
-                        <div class="certTitle">Creating Memorable <br>Visual Presentations</div>
+                        <div class="certTitle">Creating Memorable Visual Presentations</div>
                         <div class="certSource">Visme<br> <br>
                         </div>
                       </th>
                     </tr>
                   </table>
                 </div>
-              </div>
-
-              <div class="row">
-                <div class="col-3 cta w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
-                  <table>
-                    <tr>
-                      <th>
-                        <div class="w3-padding">
-                          <img src="/Assets//logos/linkedin.jpg" height="50px" width="50px" alt="Icon TBD">
-                        </div>
-                      </th>
-                      <th>
-                        <div class="certTitle">Introduction to NFTs:<br>Non-fungible Tokens</div>
-                        <div class="certSource">LinkedIn<br>
-                          <a href="https://www.linkedin.com/learning/certificates/78848ed4e7cfb253a6f3c4365780ecdb2eac0f4d5e2a862bd1e19dcb4217a761?u=35553996"
-                            class="link2" target="_blank">View credential</a>
-                        </div>
-                      </th>
-                    </tr>
-                  </table>
-                </div>
-
-                <div class="col-3 cta w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
-                  <table>
-                    <tr>
-                      <th>
-                        <div class="w3-padding">
-                          <img src="/Assets/logos/rmdslab.png" height="50px" width="50px" alt="Icon TBD">
-                        </div>
-                      </th>
-                      <th>
-                        <div class="certTitle">Facebook Ad Analysis <br>Using Python</div>
-                        <div class="certSource">RMDS Lab Inc.<br>
-                          <a href="https://app.diplomasafe.com/en-US/diploma/d6067a3173e0013a2ddafb44a7edbb33562b94678/facebook-ad-analysis-using-python/linkedin_cert"
-                            class="link2" target=”_blank”>View credential</a>
-                        </div>
-                      </th>
-                    </tr>
-                  </table>
-                </div>
-
-                <div class="col-3 cta w3-third w3-padding-24 w3-margin" style="padding-left: 2%" id="credits">
-                  <table>
-                    <tr>
-                      <th>
-                        <div class="w3-padding">
-                          <img src="/Assets/logos/salesforce.png" height="50px" width="50px" alt="Icon TBD">
-                        </div>
-                      </th>
-                      <th>
-                        <div class="certTitle">Explorer Rank:<br> 8 badges</div>
-                        <div class="certSource">Sales Force Trailblazer<br>
-                          <a href="https://trailblazer.me/id/samsunshine" class="link2" target=”_blank”>View
-                            credential</a>
-                        </div>
-                      </th>
-                    </tr>
-                  </table>
+                <div class="paddingRight w3-right opacityhalf">
+                  <h2><small><a href="/solutions/licenses-and-certifications" class="link4">View all
+                        &rarr;</a>
+                    </small></h2>
                 </div>
               </div>
             </section>
-          </div>
+
+
+
+          </section>
         </div>
+
+
+    </div>
+
+
+
+    <!-- webform large -->
+    <section class="w3-padding-large w3-hide-medium w3-hide-small">
+      <div class="w3-content w3-hide-small w3-padding-64" style="max-width:1564px; padding-left: 8%; padding-right: 8%;"
+        id="contactMe">
+        <div class="w3-center w3-padding-64" style="padding-left: 5%;">
+          <h1 class="lightText">Want to grow together? <span class="fade-in-span">Let's talk. :)</span></h1>
+          <form action="https://formsubmit.co/samsunshine.dev@gmail.com" method="POST" />
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://www.samsunshine.dev/Webform/youareawesome">
+          <input class="w3-input w3-section" type="text" placeholder="Name" required name="Name">
+          <input class="w3-input w3-section" type="email" placeholder="Email" required name="Email">
+          <input class="w3-input w3-section" type="text" placeholder="Comment" name="Comment">
+          <button class="button button-grad2 w3-section" type="submit">Send email</button>
+          </form><br>
+        </div>
+      </div>
     </section>
-   
-    <!-- Software developmenet is my forte - large -->
-        <section>
-          <div class="w3-content w3-hide-medium w3-hide-small w3-padding-64" style="max-width:1564px">
-            <section class="w3-hide-small w3-hide-medium">
-      
-              <div class="w3-container w3-padding-32 w3-hide-small w3-hide-medium">
-                <h1>
-                  <div class="title w3-padding-16 lightText w3-hide-small" style="font-size: 55px;">
-                    <strong>Software development is my forte</strong>
-                  </div>
-                </h1>
-      
-                <div class="w3-half lightText" style="width: 50%!important;">
-                  <h1>My top designer skills</h1>
-      
-                  <table class="skillsTitle">
-                    <tr>
-                      <td class="startTable w3-padding-16 "> &#x2713;</td>
-                      <td class="startTable w3-text-indent">&nbsp;Establish detailed website roadmaps</td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16 "> &#x2713;
-                      </td>
-                      <td class="startTable w3-text-indent">&nbsp;Create wireframes and prototypes<br>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16"> &#x2713;</td>
-                      <td class="startTable w3-text-indent">&nbsp;Design web interactions/movement</td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16"> &#x2713; </td>
-                      <td class="startTable w3-text-indent">&nbsp;Create specialized webpages<br>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16"> &#x2713; </td>
-                      <td class="startTable w3-text-indent">&nbsp;Apply user-centerd design principles<br>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-      
-                <div class="w3-left w3-half lightText" style="padding-left: 1%;">
-                  <h1>My top developer skills</h1>
-                  <table class="skillsTitle">
-                    <tr>
-                      <td class="startTable w3-padding-16"> &#x2713;</td>
-                      <td class="startTable w3-text-indent">&nbsp;Develop front-end web applications</td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16 "> &#x2713;
-                      </td>
-                      <td class="startTable w3-text-indent">&nbsp;Manage site performance and scalability<br>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16"> &#x2713;</td>
-                      <td class="startTable w3-text-indent">&nbsp;Create SEO strategies</td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16"> &#x2713; </td>
-                      <td class="startTable w3-text-indent">&nbsp;Create custom email marketing<br>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="startTable w3-padding-16"> &#x2713; </td>
-                      <td class="startTable w3-text-indent">&nbsp;Debug digital applications<br>
-                      </td>
-                    </tr>
-                  </table>
-                  <br><br>
-                </div>
-              </div>
-          </div>
-          </section>
-        </div> <!-- div to end full page content -->
+    </div>
+  </section>
+  <!-- END OF LARGE UI -->
 
-
-        <!-- all solutions -->
-           <section>    
-            <h1>
-               <div class="lightText w3-center" style="font-size: 55px">Solutions I've been part of</div>
-                  </h1>
-
-              <div class="w3-padding-16" style="text-align:center">
-                <span class="soln" onclick="currentSlide(1)">NFT Market</span> 
-                <span class="soln" onclick="currentSlide(2)">Property Management</span>
-                <span class="soln" onclick="currentSlide(3)">SAID Testbed</span>
-              </div>
-            <div class="w3-padding-large container1 w3-hide-small w3-hide-medium">
-          
-<br>
-
-              <div class="slideshow-container w3-padding-large">
-                <div class="mySlides fade">
-                  <div> <!-- start of inside slide -->
-                    <div class="container4">
-                      <div class="w3-half w3-padding-large darkText">
-                        <h2 style="padding-left: 10%;"><strong><i>NFT Marketplace</i></strong><br></h2>
-                        <h3 style="padding-left: 10%;">RMDS Lab, a data and artificial intelligence (AI) platform, created the
-                          first non-fungible token (NFT) marketplace for science and technology intellectual
-                          property.<br><br><strong>My role</strong>: UI/UX web developer & team manager<br><br></h3>
-      
-                        <p style="padding-left: 10%;"><button class="button button-grad3"><a href="/Solutions/NFTMarket">Learn
-                              more</a></button>
-                          <button class="button button5"><a href="/Solutions/AllSolns">View all solutions</a></button>
-                        </p>
-                        <br>
-                      </div>
-      
-                      <div>
-                        <div class="leftSideText w3-hide-small" style="padding-right:10%; padding-top: 2%;">
-                          <img src="/Assets/images/laptop-nftmarket.png" class="w3-hide-small w3-right" width="650px"
-                            height="400px" alt="Icon TBD">
-                        </div>
-                        <br><br>
-                      </div>
-                    </div>
-                  </div><!-- end of inside slide -->
-                </div>
-      
-                <div class="mySlides fade">
-                  <div> <!-- start of inside slide -->
-                    <div class="container4">
-                      <div class="w3-half w3-padding-large darkText">
-                        <h2 style="padding-left: 10%;"><strong><i>Property Management Software</i></strong><br></h2>
-                        <h3 style="padding-left: 10%;">I developed and designed property management software to help organize
-                          and manage residential rental properties with Home Sweet Management.
-                          <br><br><strong>My roles</strong>: Web developer & designer<br><br>
-                        </h3>
-                        <p style="padding-left: 10%;"><button class="button button-grad4"><a
-                              href="/Solutions/PropertyManagement">Learn more</a></button>
-                          <button class="button button1"><a href="/Solutions/AllSolns">View all solutions</a></button>
-                        </p>
-                        <br>
-                      </div>
-      
-                      <div>
-                        <div class="leftSideText w3-hide-small" style="padding-right:10%; padding-top: 2%;">
-                          <img src="/Assets/images/hsm.png" class="w3-hide-small w3-right" width="650px" height="400px"
-                            alt="Icon TBD">
-                        </div>
-  
-                      </div>
-                    </div>
-                  </div><!-- end of inside slide -->
-                </div>
-      
-                <div class="mySlides fade">
-                  <div> <!-- start of inside slide -->
-                    <div class="container4">
-                      <div class="w3-half w3-padding-large darkText">
-                        <h2 style="padding-left: 10%;"><strong><i>The SAID Testbed</i></strong><br></h2>
-                        <h3 style="padding-left: 10%;">Our CSULA senior design team worked for The Aerospace Corporation to
-                          develop software components to integrate with and utilize existing industry open-source software
-                          components.<br>
-                          <br>
-                          <strong>My roles</strong>: Triumvirate management and documentation team member<br><br>
-                        </h3>
-                        <p style="padding-left: 10%;"><button class="button button-grad1"><a href="/Solutions/SAID">Learn
-                              more</a></button>
-                          <button class="button button6"><a href="/Solutions/AllSolns">View all solutions</a></button>
-                        </p>
-                        <br>
-                      </div>
-      
-                      <div>
-                        <div class="leftSideText" style="padding-right:10%; padding-top: 2%;">
-                          <img src="/Assets/images/said.png" class="w3-hide-small w3-right" width="650px" height="400px"
-                            alt="Icon TBD">
-                        </div>
-                        <br><br>
-                      </div>
-                    </div>
-                  </div><!-- end of inside slide -->
-                </div>
-      
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-      
-              </div>
-            </div>  
-            <br>
-          </section>
-
-          <!-- webform large -->
+  <!-- START MEDIUM UI -->
+  <section>
+    <div class="container w3-hide-large w3-hide-small">
+      <div class="w3-content" style="max-width:1564px">
+        <header>
           <section>
-            <div class="w3-content w3-hide-small w3-padding-32" style="max-width:1564px; padding-left: 8%; padding-right: 8%;"
-              id="contactMe">
+            <div class="w3-center w3-container w3-padding-32 w3-hide-small w3-hide-large w3-margin">
+              <div class="w3-padding-32">
+                <div class="mainTitle">Hello, I'm Samantha</div>
+                <div class="subTitle highlight paddingBottom"> 
+                  <span class="subTitleBox">Software Engineer</span> <span
+                    class="subTitleBox">Researcher</span> <br><span class="subTitleBox">Front-End Developer</span> <br>
+                  <span class="subTitleBox">UI/UX Enthusiast</span>
+                  <span class="subTitleBox">Project Manager</span> <span class="subTitleBox">Designer</span>
+                </div>
+                <img src="/Assets/images/samsunshine.png" class="w3-hide-small" alt="Tech Self">
                 <h1>
-                  <div class="title w3-padding lightText w3-center w3-hide-small" style="font-size: 55px;">
-                    <strong>Thanks for visiting my corner of the web!</strong>
+                  <div class="lightText w3-center">
+                    Welcome to my digital playground, where technology meets artistry. I specialize in digital
+                    creations, turning ideas into reality.
                   </div>
                 </h1>
-        
-                <h2 class="w3-center w3-padding-16 lightText">I am currently interested in full-time opportunities – especially
-                  ambitious or large projects. However, I welcome you to use the contact form if you have a free-lance request
-                  or other questions/comments. :)</h2>
-        
-                <div class="lightText w3-center container1" style="padding-left: 15%;">
-                  <h2 class="secondary-text">Contact form</h2>
-                  <form action="https://formsubmit.co/samsunshine.dev@gmail.com" method="POST" />
-                  <input type="hidden" name="_captcha" value="false">
-                  <input type="hidden" name="_next" value="https://www.samsunshine.dev/Webform/youareawesome">
-                  <input class="w3-input" type="text" placeholder="Name" required name="Name">
-                  <input class="w3-input w3-section" type="email" placeholder="Email" required name="Email">
-                  <input class="w3-input w3-section" type="text" placeholder="Comment" name="Comment">
-                  <button class="button button-grad2" type="submit">Send email</button>
-                  </form><br>
-                </div>
-            </div>
-            </section>
+                <br>
 
-  </div> 
-    </section>
-    <!-- END OF LARGE UI -->
-
-    <!-- START MEDIUM UI -->
-    <section>
-  <div class="container w3-hide-large w3-hide-small">
-    <div class="w3-content" style="max-width:1564px">
-      <!-- <header>
-        <section>
-          <div class="w3-container w3-centered w3-hide-large w3-margin w3-mobile w3-hide-small" style="padding: 2%;">
-            <h2>
-              <div class="w3-half w3-mobile lightText">
-                Hello, I am <a href=""><span style="color: var(--highlight-color)">Samantha</span></a>! I'm a software
-                engineer with 4+ years of experience
-                designing and building exceptional digital adventures.
-                <br><br> <button class="button-grad1 w3-mobile"><a href="#contactMe">Let's talk</a></button>&nbsp;&nbsp;
+                <section>
+                  <button class="button-grad2" style="width: 100%;"><a href="/#contactMe">Say hello &rarr;</a></button>
+                </section>
               </div>
 
+              <div>
+                <div class="leftSideText" style="padding-right: 8%;"><br>
+                  <img src="/Assets/gifs/samantha.gif" class="w3-hide-small w3-hide-medium w3-right" width="520px"
+                    height="520px" alt="Tech Self">
+                </div>
+              </div>
+            </div>
+          </section>
+        </header>
 
 
-              <div class="w3-half w3-padding w3-mobile">
-                <img src="/Assets/gifs/samantha.gif" class="w3-hide-large w3-hide-small" width="320px" height="320px"
-                  alt="Tech Self">
+        <section class="w3-padding-48">
+          <div class="w3-container w3-margin lightText w3-mobile">
+            <div class="w3-padding-large w3-hide-large w3-center w3-hide-small">
+              <h1>A Showcase of Select Solutions</h1>
+            </div>
+            <div class="w3-padding-large w3-hide-large w3-center w3-hide-small">
+
+              <div class="container1"> <!-- start of inside slide -->
+                <div class="lightText">                  
+                  <h1><strong><i>NFT Marketplace</i></strong><br></h1>
+                  <h3><strong>My role</strong><br> <span class="opactiy-third">UI/UX web developer & team manager</span></h3>
+                  <h3>Overview <br><span class="opactiy-third">RMDS Lab, a data and artificial intelligence (AI) platform, created the first non-fungible token
+                    (NFT)
+                    marketplace for science and technology intellectual property.</span>
+                  </h3>
+                </div>
+
+                <div>
+                  <div class="leftSideText w3-hide-small">
+                    <h3>
+                      <img src="/Assets/images/laptop-nftmarket.png" class="w3-hide-small w3-right" style="padding-bottom: 4%;" width="850px"
+                        height="400px" alt="Icon TBD"><br>
+                    </h3>
+                  </div>
+                  <button class="button-grad3" style="width: 100%;"><a href="/solutions/nft-market">Learn
+                    more</a></button>
+                </div>
+
+              </div><!-- end of inside slide -->
+              <br><br>
+              <div class="container1"> <!-- start of inside slide -->
+                <div class="lightText">
+                  <h1><strong><i>Property Management Software</i></strong><br></h1>
+                  <h3><strong>My role <br></strong><span class="opactiy-third">Web developer & designer</span></h3>
+                  <h3>Overview<br> <span class="opactiy-third">I developed and designed property management software to help organize and manage residential
+                    rental properties with Home Sweet Management.</span>
+                  </h3>
+                </div>
+
+                <div>
+                  <div class="leftSideText w3-hide-small" style="padding-top: 2%;">
+                    <img src="/Assets/images/hsm.png" class="w3-hide-small w3-right" style="padding-bottom: 4%;" width="850px" height="400px"
+                      alt="Icon TBD"><br>
+                  </div>
+                  <button class="button-grad2" style="width: 100%;"><a href="/solutions/property-management">Learn
+                    more</a></button>
+                </div>
+              </div><!-- end of inside slide -->
+              <br><br>
+              <div class="container1"> <!-- start of inside slide -->
+                <div class="lightText">
+                  <h1><strong><i>The SAID Testbed</i></strong><br></h1>
+                  <h3><strong>My role<br></strong> <span class="opactiy-third">Triumvirate management with focus on documentation</span></h3>
+                  <h3>Overview<br><span class="opactiy-third">Our CSULA senior design team worked for The Aerospace Corporation to develop software components
+                    to integrate with and utilize existing industry open-source software components.</span>
+                  </h3>
+                </div>
+
+                <div>
+                  <div class="leftSideText" style="padding-top: 2%;">
+                    <img src="/Assets/images/said.png" class="w3-hide-small w3-right" style="padding-bottom: 4%;" width="850px" height="400px"
+                      alt="Icon TBD"><br>
+                  </div>
+                  <button class="button-grad4" style="width: 100%;"><a href="/solutions/satellite-anomaly-injection-and-detection">Learn
+                    more</a></button>
+                </div>
+              </div><!-- end of inside slide -->
+
+            </div>
+        </section>
+
+        <div class="w3-container w3-hide-small w3-hide-large lightText">
+          <h1>Empowering Proficiencies</h1>
+
+          <section>
+            <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
+              <h2>Frameworks</h2>
+              <table>
+                <tr>
+                  <th>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/vue.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                      &nbsp; Vue.Js <br>
+                    </div>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/drupal.png" class="w3-left" height="40px" width="30px" alt="Icon TBD">
+                      &nbsp; Drupal<br>
+                    </div>
+                  </th>
+                </tr>
+              </table>
+            </div>
+
+            <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
+              <h2>Tools/Platforms</h2>
+              <table>
+                <tr>
+                  <th>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/github-mark-white.png" class="w3-left" height="40px" width="40px"
+                        alt="Icon TBD">
+                      &nbsp; Git <br>
+                    </div>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/chrome.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                      &nbsp; DevTools <br>
+                    </div>
+                  </th>
+                </tr>
+              </table>
+            </div>
+
+            <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
+              <h2>Languages</h2>
+              <table>
+                <tr>
+                  <th>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/html.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                      &nbsp; HTML<br>
+                    </div>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/css.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                      &nbsp; CSS<br>
+                    </div>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/java-script.png" class="w3-left" height="40px" width="40px"
+                        alt="Icon TBD">
+                      &nbsp; JavaScript<br>
+                    </div>
+                  </th>
+                </tr>
+              </table>
+            </div>
+
+            <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
+              <h2>Design</h2>
+              <table>
+                <tr>
+                  <th>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/xd.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                      &nbsp; Adobe: XD<br>
+                    </div>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/ai.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                      &nbsp; Adobe: Ai<br>
+                    </div>
+                    <div class="techTitle w3-padding-16">
+                      <img src="/Assets/logos/ps.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
+                      &nbsp; Adobe: Ps
+                    </div>
+                  </th>
+                </tr>
+              </table>
+            </div>
+          </section>
+        </div>
+
+
+        <div class="w3-container w3-padding-32 w3-hide-small w3-hide-large" id="moreAboutMe">
+          <section>
+            <h1 class="lightText">Earned Licenses & Certifications</h1><br>
+
+            <div class="w3-padding-large">
+              <br>
+              <div class="w3-card-1">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="w3-padding">
+                        <img src="/Assets/logos/csula.png" height="80px" width="85x" alt="Icon TBD">
+                      </div>
+                    </th>
+                    <th>
+                      <div class="certTitleMobile"><h2>Bachelor of Science - BS, Computer Science</h2></div>
+                      <div class="certSourceMobile"><h3>Cal State LA College of ECST<br></h3>
+                      </div>
+                    </th>
+                  </tr>
+                </table>
               </div>
               <br>
-            </h2>
-          </div>
-
-          <div class="w3-container lightText w3-padding-64 w3-hide-large w3-margin w3-mobile w3-hide-small">
-            <h1>My technical specialties:</h1>
-
-            <table class="skillsTitle">
-              <tr>
-                <td class="startTable w3-text-indent w3-padding-16 "> &#x2713;</td>
-                <td class="startTable paddingLeft">&nbsp;UI/UX web design</td>
-                <td class="startTable w3-text-indent w3-padding-16 "> &#x2713;</td>
-                <td class="startTable paddingLeft">&nbsp;Front-end web development</td>
-              </tr>
-            </table>
-
-          </div>
-        </section>
-      </header> -->
-      <header>
-        <section>
-          <div class="w3-container w3-padding-32 w3-hide-small w3-hide-large w3-margin">
-            <div class="w3-padding-32">
-              <div class="mainTitle">Hello, I'm Samantha</div>
-              <div class="subTitle">SOFTWARE ENGINEER</div>
-               <h2>
-                <div class="introToSamantha">
-                  I'm experienced in designing and building exceptional digital adventures. 
-                  My specialties are UI/UX web design and 
-                  front-end web development.
-                </div>
-              </h2>
-<br>
-
-<img src="/Assets/gifs/samantha.gif" class="w3-hide-small w3-hide-medium w3-right" width="520px"
-height="520px" alt="Tech Self">
-
-              <button class="button-grad1"><a href="/About/her">Learn more</a></button>
-              &nbsp;&nbsp;&nbsp;&nbsp;
-             &nbsp;&nbsp;&nbsp;
-              <div class="tooltip"> <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class="tooltip"><img src="/Assets/logos/linkedin.jpg" width="50px" height="50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span class="tooltiptext">
-                  <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/">View LinkedIn</a>
-                </span>
+              <div class="w3-card-1">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="w3-padding">
+                        <img src="/Assets/logos/chaffey.jpg" height="80px" width="80px" alt="Icon TBD">
+                      </div>
+                    </th>
+                    <th>
+                      <div class="certTitle"><h2>Associate of Science - AS, Computer Science</h2></div>
+                      <div class="certSource"><h3>Chaffey College<br></h3>
+                      </div>
+                    </th>
+                  </tr>
+                </table>
               </div>
-              <div class="tooltip"> 
-                    <a href="https://github.com/SamSunshine" class=""><img src="/Assets/logos/github-mark-white.png" width="50px"   height="50px"></a>&nbsp;&nbsp;&nbsp;
-                  <span class="tooltiptext">
-                      <a href="https://github.com/SamSunshine">View Github</a>
-                </span>
+              <br>
+              <div class="w3-card-1">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="w3-padding">
+                        <img src="/Assets/logos/chaffey.jpg" height="80px" width="80px" alt="Icon TBD">
+                      </div>
+                    </th>
+                    <th>
+                      <div class="certTitle"><h2>Associate of Science - AS, Physics</h2></div>
+                      <div class="certSource"><h3>Chaffey College<br></h3>
+                      </div>
+                    </th>
+                  </tr>
+                </table>
               </div>
-              <div class="tooltip"> 
-                <a href="https://trailblazer.me/id/samsunshine" class=""><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
-                <span class="tooltiptext">
-                  <a href="https://trailblazer.me/id/samsunshine">View Trailblazer</a>
-                </span>
+              <br>
+              <div class="w3-card-1">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="w3-padding">
+                        <img src="/Assets/logos/linkedin.jpg" height="50px" width="50px" alt="Icon TBD">
+                      </div>
+                    </th>
+                    <th>
+                      <div class="certTitle"><h2>HTML Essential Training<br></h2></div>
+                      <div class="certSource"><h3>LinkedIn<br>
+                        <a href="https://www.linkedin.com/learning/certificates/56674365986ec04d206584ee3d7396c41800f2fd2c6d90ff14c07b2c5ae0d7fc?u=35553996"
+                          class="link2" target=”_blank”>View credential</a></h3>
+                      </div>
+                    </th>
+                  </tr>
+                </table>
               </div>
-              <!-- <button class="button7"><a href="/About/her">Download resume</a></button>&nbsp;&nbsp; -->
+              <br>
+              <br>
+              <div class="w3-card-1">
+                <table>
+                  <tr>
+                    <th>
+                      <div class="w3-padding">
+                        <img src="/Assets/logos/google.png" height="50px" width="50px" alt="Icon TBD">
+                      </div>
+                    </th>
+                    <th>
+                      <div class="certTitle"><h2>Google Ads - Measurement Certification<br></h2></div>
+                      <div class="certSource"><h3>Google<br>
+                        <a href="https://skillshop.credential.net/990fa84a-2981-40d1-ab25-cbdc2225495d" class="link2"
+                          target=”_blank”>View credential</a></h3>
+                      </div>
+                    </th>
+                  </tr>
+                </table>
+              </div>
+              <br>
+              <br>
+              <button class="button-grad2" style="width: 100%;"><small><a href="/solutions/licenses-and-certifications.html" class="link4">View all licenses & certifications
+                &rarr;</a></button>
             </div>
 
-            <div>
-              <div class="leftSideText" style="padding-right: 8%;"><br>
-                <img src="/Assets/gifs/samantha.gif" class="w3-hide-small w3-hide-medium w3-right" width="520px"
-                  height="520px" alt="Tech Self">
-              </div>
-            </div>
-          </div>
-        </section>
-      </header>
-
-      <section>
-      <div class="w3-container w3-hide-small w3-hide-large w3-margin">
-        <div class="lightText w3-mobile">
-          <h1>My top designer skills</h1>
-          <table class="skillsTitle">
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16 "> &#x2713;</td>
-              <td class="startTable paddingLeft">&nbsp;Establish detailed website roadmaps</td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16 "> &#x2713;
-              </td>
-              <td class="startTable paddingLeft">&nbsp;Create wireframes and prototypes<br>
-              </td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16"> &#x2713;</td>
-              <td class="startTable paddingLeft">&nbsp;Design web interactions/movement</td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16"> &#x2713; </td>
-              <td class="startTable paddingLeft">&nbsp;Create specialized webpages<br>
-              </td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16"> &#x2713; </td>
-              <td class="startTable paddingLeft">&nbsp;Apply user-centerd design principles<br>
-              </td>
-            </tr>
-          </table>
+          </section>
         </div>
+      </div> <!-- end of full page content-->
 
-        <div class="w3-left w3-padding-48 lightText" style="padding-left: 1%;">
-          <h1>My top developer skills</h1>
-          <table class="skillsTitle">
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16"> &#x2713;</td>
-              <td class="startTable paddingLeft">&nbsp;Develop front-end web applications</td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16 "> &#x2713;
-              </td>
-              <td class="startTable paddingLeft">&nbsp;Manage site performance and scalability<br>
-              </td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16"> &#x2713;</td>
-              <td class="startTable paddingLeft">&nbsp;Create SEO strategies</td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16"> &#x2713; </td>
-              <td class="startTable paddingLeft">&nbsp;Create custom email marketing<br>
-              </td>
-            </tr>
-            <tr>
-              <td class="startTable w3-text-indent w3-padding-16"> &#x2713; </td>
-              <td class="startTable paddingLeft">&nbsp;Debug digital applications<br>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      </section>
-
-      <div class="w3-container w3-hide-small w3-hide-large lightText">
-        <h1>Recently used technologies</h1>
-
-        <section>
-          <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
-            <h2>Frameworks</h2>
-            <table>
-              <tr>
-                <th>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/vue.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; Vue.Js <br>
-                  </div>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/drupal.png" class="w3-left" height="40px" width="30px" alt="Icon TBD">
-                    &nbsp; Drupal<br>
-                  </div>
-                </th>
-              </tr>
-            </table>
-          </div>
-
-          <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
-            <h2>Tools/Platforms</h2>
-            <table>
-              <tr>
-                <th>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/github-mark-white.png" class="w3-left" height="40px" width="40px"
-                      alt="Icon TBD">
-                    &nbsp; Git <br>
-                  </div>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/chrome.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; DevTools <br>
-                  </div>
-                </th>
-              </tr>
-            </table>
-          </div>
-
-          <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
-            <h2>Languages</h2>
-            <table>
-              <tr>
-                <th>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/html.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; HTML<br>
-                  </div>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/css.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; CSS<br>
-                  </div>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/java-script.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; JavaScript<br>
-                  </div>
-                </th>
-              </tr>
-            </table>
-          </div>
-
-          <div class="w3-container w3-half w3-margin" style="padding-left: 5%" id="credits">
-            <h2>Design</h2>
-            <table>
-              <tr>
-                <th>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/xd.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; Adobe: XD<br>
-                  </div>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/ai.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; Adobe: Ai<br>
-                  </div>
-                  <div class="techTitle w3-padding-16">
-                    <img src="/Assets/logos/ps.png" class="w3-left" height="40px" width="40px" alt="Icon TBD">
-                    &nbsp; Adobe: Ps
-                  </div>
-                </th>
-              </tr>
-            </table>
-          </div>
-        </section>
-      </div>
-    
-      <div class="w3-container w3-padding-32 w3-hide-small w3-hide-large" id="moreAboutMe">
-        <section>
-          <h1 class="lightText">Licenses & Certifications</h1><br>
-
-          <div class="lightBackground w3-padding-large">
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/csula.png" height="50px" width="45x" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Bachelor of Science - BS, Computer Science</div>
-                    <div class="certSource">Cal State LA College of ECST<br>
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/chaffey.jpg" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Associate of Science - AS, Computer Science</div>
-                    <div class="certSource">Chaffey College<br>
-                      <!-- <a href="">View credential</a><br> -->
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/chaffey.jpg" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Associate of Science - AS, Physics</div>
-                    <div class="certSource">Chaffey College<br>
-                      <!-- <a href="">View credential</a><br> -->
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/linkedin.jpg" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">HTML Essential Training<br></div>
-                    <div class="certSource">LinkedIn<br>
-                      <a href="https://www.linkedin.com/learning/certificates/56674365986ec04d206584ee3d7396c41800f2fd2c6d90ff14c07b2c5ae0d7fc?u=35553996"
-                        class="link2" target=”_blank”>View credential</a>
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/linkedin.jpg" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Design Thinking: Understanding the Process<br></div>
-                    <div class="certSource">LinkedIn<br>
-                      <a href="https://www.linkedin.com/learning/certificates/56674365986ec04d206584ee3d7396c41800f2fd2c6d90ff14c07b2c5ae0d7fc?u=35553996"
-                        class="link2" target=”_blank”>View credential</a>
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/visme.jpg" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Creating Memorable Visual Presentations</div>
-                    <div class="certSource">Visme<br>
-                      <!-- <a href="" class="link2"  target=”_blank” >View credential</a> -->
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets//logos/linkedin.jpg" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Introduction to NFTs: Non-fungible Tokens</div>
-                    <div class="certSource">LinkedIn<br>
-                      <a href="https://www.linkedin.com/learning/certificates/78848ed4e7cfb253a6f3c4365780ecdb2eac0f4d5e2a862bd1e19dcb4217a761?u=35553996"
-                        class="link2" target="_blank">View credential</a>
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/rmdslab.png" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Facebook Ad Analysis Using Python</div>
-                    <div class="certSource">RMDS Lab Inc.<br>
-                      <a href="https://app.diplomasafe.com/en-US/diploma/d6067a3173e0013a2ddafb44a7edbb33562b94678/facebook-ad-analysis-using-python/linkedin_cert"
-                        class="link2" target=”_blank”>View credential</a>
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="w3-card-1">
-              <table>
-                <tr>
-                  <th>
-                    <div class="w3-padding">
-                      <img src="/Assets/logos/salesforce.png" height="50px" width="50px" alt="Icon TBD">
-                    </div>
-                  </th>
-                  <th>
-                    <div class="certTitle">Explorer Rank: 8 badges</div>
-                    <div class="certSource">Sales Force Trailblazer<br>
-                      <a href="https://trailblazer.me/id/samsunshine" class="link2" target=”_blank”>View credential</a>
-                    </div>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <br>
-          </div>
-
-        </section>
-      </div>
-    </div> <!-- end of full page content-->
-  
+      <!-- webform -->
       <section>
-        <div class="w3-container w3-margin lightText w3-mobile">
-          <div class="w3-padding-large w3-hide-large w3-center w3-hide-small">
-            <h1>Solutions I've worked on</h1>
-          </div>
-          <div class="w3-padding-large w3-hide-large w3-center w3-hide-small">
-  
-            <div class="container1"> <!-- start of inside slide -->
-              <div class="darkText">
-                <h2><strong><i>NFT Marketplace</i></strong><br></h2>
-                <h2><strong>My role:</strong> UI/UX web developer & team manager</h2>
-                <h3>RMDS Lab, a data and artificial intelligence (AI) platform, created the first non-fungible token (NFT)
-                  marketplace for science and technology intellectual property.
-                  <a href="/Solutions/NFTMarket" style="color: var(--link-color2)">Learn more</a>.
-                  <br><br>
-                </h3>
-              </div>
-  
-              <div>
-                <div class="leftSideText w3-hide-small" style="padding-right:10%; padding-top: 2%;">
-                  <img src="/Assets/images/laptop-nftmarket.png" class="w3-hide-small w3-right" width="650px"
-                    height="400px" alt="Icon TBD">
-                </div>
-              </div>
-  
-            </div><!-- end of inside slide -->
-            <br><br>
-            <div class="container1"> <!-- start of inside slide -->
-              <div class="darkText">
-                <h2><strong><i>Property Management Software</i></strong><br></h2>
-                <h2><strong>My role:</strong> Web developer & designer</h2>
-                <h3>I developed and designed property management software to help organize and manage residential rental
-                  properties with Home Sweet Management.
-                  <a href="/Solutions/PropertyManagement" style="color: var(--link-color2)">Learn more</a>.
-                  <br><br>
-                </h3>
-              </div>
-  
-              <div>
-                <div class="leftSideText w3-hide-small" style="padding-right:10%; padding-top: 2%;">
-                  <img src="/Assets/images/hsm.png" class="w3-hide-small w3-right" width="650px" height="400px"
-                    alt="Icon TBD">
-                </div>
-              </div>
-            </div><!-- end of inside slide -->
-            <br><br>
-            <div class="container1"> <!-- start of inside slide -->
-              <div class="darkText">
-                <h2><strong><i>The SAID Testbed</i></strong><br></h2>
-                <h2><strong>My role:</strong> Triumvirate management with focus on documentation</h2>
-                <h3>Our CSULA senior design team worked for The Aerospace Corporation to develop software components to
-                  integrate with and utilize existing industry open-source software components.
-                  <a href="/Solutions/SAID" style="color: var(--link-color2)">Learn more</a>.
-                  <br><br>
-                </h3>
-              </div>
-  
-              <div>
-                <div class="leftSideText" style="padding-right:10%; padding-top: 2%;">
-                  <img src="/Assets/images/said.png" class="w3-hide-small w3-right" width="650px" height="400px"
-                    alt="Icon TBD">
-                </div>
-              </div>
-            </div><!-- end of inside slide -->
-  
-          </div>
-      </section>
-
-      <!-- webform -->      
-      <section>
-        <div class="w3-content w3-hide-small w3-padding-32" style="max-width:1564px; padding-left: 8%; padding-right: 8%;"
-          id="contactMe">
-            <h1>
-              <div class="title w3-padding lightText w3-center w3-hide-small" style="font-size: 55px;">
-                <strong>Thanks for visiting my corner of the web!</strong>
-              </div>
-            </h1>
-    
-            <h2 class="w3-center w3-padding-16 lightText">I am currently interested in full-time opportunities – especially
-              ambitious or large projects. However, I welcome you to use the contact form if you have a free-lance request
-              or other questions/comments. :)</h2>
-    
-            <div class="lightText w3-center container1" style="padding-left: 15%;">
-              <h2 class="secondary-text">Contact form</h2>
-              <form action="https://formsubmit.co/samsunshine.dev@gmail.com" method="POST" />
-              <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="https://www.samsunshine.dev/Webform/youareawesome">
-              <input class="w3-input" type="text" placeholder="Name" required name="Name">
-              <input class="w3-input w3-section" type="email" placeholder="Email" required name="Email">
-              <input class="w3-input w3-section" type="text" placeholder="Comment" name="Comment">
-              <button class="button button-grad2" type="submit">Send email</button>
-              </form><br>
+        <div class="w3-content w3-hide-small w3-padding-32"
+          style="max-width:1564px; padding-left: 8%; padding-right: 8%;" id="contactMe">
+          <h1>
+            <div class="title w3-padding lightText w3-center w3-hide-small" style="font-size: 55px;">
+              <strong>Want to grow together?<br> Let's talk. :)</strong>
             </div>
+          </h1>
+
+          <div class="lightText w3-center container1">
+            <h2 class="secondary-text"></h2>
+            <form action="https://formsubmit.co/samsunshine.dev@gmail.com" method="POST" />
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://www.samsunshine.dev/webform/you-are-awesomw">
+            <input class="w3-input" type="text" placeholder="Name" required name="Name">
+            <input class="w3-input w3-section" type="email" placeholder="Email" required name="Email">
+            <input class="w3-input w3-section" type="text" placeholder="Comment" name="Comment">
+            <button class="button button-grad2" type="submit">Send email</button>
+            </form>
+          </div>
         </div>
       </section>
 
-      <!-- footer -->   
+      <!-- footer -->
       <section>
-          <div class="w3-row w3-center w3-hide-small w3-hide-medium w3-section">
-            <div class="w3-center w3-padding-16">
-              <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class="fa"><img
-                  src="/Assets/logos/linkedin.jpg" alt="logo" width="50px" height="50px"></a>&nbsp;
-              <a href="https://github.com/SamSunshine" class="fa"><img src="/Assets/logos/github-mark-white.png" alt="logo"
-                  width="50px" height="50px"></a>&nbsp;
-              <a href="https://trailblazer.me/id/samsunshine" class="fa"><img src="/Assets/logos/salesforce.png" alt="logo"
-                  width="50px" height="50px"></a>&nbsp;
-            </div>
-    
-            <div class="w3-center">
-              <a href="https://github.com/SamSunshine/Samantha-Company-Site" class="w3-bar-item lightText">Site Design &
-                Build &#169; Samantha Simpson &hearts; 2023</a>
-            </div>
-            <a href="#home" class="w3-bar-item lightText">&#8593 &nbsp;Back to top &nbsp; &#8593 </a>
-          </div>
-      </section>
-    </div>
-    </section>
-    <!-- END OF MEDIUM  UI -->
-
-<!-- START SMALL SECTION -->
-    <section>  
-      <header>
-        <section>
-          <div class="container3 w3-mobile lightText w3-hide-large w3-hide-medium">
-            <h3 class="w3-center">Hello, I am <a href=""><span style="color: var(--highlight-color)">Samantha</span></a>
-             <br> the sofware engineer - <br> <em>designing and developing exceptional digital adventures</em></h3>
-            <div class="w3-center w3-padding">
-              <img src="/Assets/gifs/samantha.gif" class="w3-hide-large w3-hide-medium w3-padding" width="220px"
-                height="220px" alt="Tech Self">
-            </div>
-
-            <div class="w3-padding-16">
-              <button class="button button-grad1 w3-mobile"><a href="/Webform/contacther">Let's talk!
-                  :)</a></button>
-              </div>
-              <!-- <section>      
-                <div class="w3-center w3-padding-16">
-                <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class=""><img src="/Assets/logos/linkedin.jpg" width="50px" height="50px"></a>&nbsp;
-                <a href="https://github.com/SamSunshine" class=""><img src="/Assets/logos/github-mark-white.png" width="50px" height="50px"></a>&nbsp;
-                <a href="https://trailblazer.me/id/samsunshine" class=""><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
-              </div></section> -->
-          </div>
-        </section>
-      </header>
-      </section>
-      
-  <!-- FOOTER SECTION (sit on bottom) -->
-      <section>
-        <br><br><br>
-        <div class="footerMenu w3-row w3-center w3-hide-small w3-section">
+        <div class="w3-row w3-center w3-hide-small w3-hide-medium w3-section">
           <div class="w3-center w3-padding-16">
-            <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class=""><img src="/Assets/logos/LI-In-Bug.png" width="55px" height="50px"></a>&nbsp;
-            <a href="https://github.com/SamSunshine" class=""><img src="/Assets/logos/github-mark-white.png" width="50px" height="50px"></a>&nbsp;
-            <a href="https://trailblazer.me/id/samsunshine" class=""><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
+            <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class="fa"><img
+                src="/Assets/logos/linkedin.jpg" alt="logo" width="50px" height="50px"></a>&nbsp;
+            <a href="https://github.com/SamSunshine" class="fa"><img src="/Assets/logos/github-mark-white.png"
+                alt="logo" width="50px" height="50px"></a>&nbsp;
+            <a href="https://trailblazer.me/id/samsunshine" class="fa"><img src="/Assets/logos/salesforce.png"
+                alt="logo" width="50px" height="50px"></a>&nbsp;
           </div>
 
-          <div class="w3-center">  
-            <a href="https://github.com/SamSunshine/Samantha-Company-Site" class="w3-bar-item">Site Design &
+          <div class="w3-center">
+            <a href="https://github.com/SamSunshine/Samantha-Company-Site" class="w3-bar-item lightText">Site Design &
               Build &#169; Samantha Simpson &hearts; 2023</a>
           </div>
-          <a href="#home" class="w3-bar-item">&#8593 &nbsp;Back to top &nbsp; &#8593 </a>
+          <a href="#home" class="w3-bar-item lightText">&#8593 &nbsp;Back to top &nbsp; &#8593 </a>
         </div>
-<!-- small foot -->
-        </section>        
-        <span class="footerMenuMobile w3-hide-large w3-hide-medium">
-            <a href="/About/her" class="w3-left w3-button">About</a>
-             <a href="/Solutions/AllSolns" class=" w3-center w3-button">Solutions</a>
-             <a href="/Webform/contacther" class=" w3-right w3-button">Contact</a>
-          <!-- <div class="w3-center">  
-           <h6><a href="https://github.com/SamSunshine/Samantha-Company-Site">Site Design &
-              Build &#169; Samantha Simpson &hearts; 2023</a></h6>
-          </div>  -->
-        </span>
+      </section>
+    </div>
+  </section>
+  <!-- END OF MEDIUM  UI -->
+
+  <!-- START SMALL SECTION -->
+  <section>
+    <div class="w3-hide-large w3-hide-medium ">
+      <h3 class="lightText w3-mobile">
+        <span class="mobile-heading">Hello, I'm Samantha!</span><br>
+        <span class="mobile-intro">Welcome to my digital playground, where technology meets artistry. I specialize
+          in digital creations, turning ideas into reality. </span>
+      </h3>
+      <div class="w3-center">
+        <img src="/Assets/images/samsunshinemobile.png" class="w3-hide-large w3-hide-medium" alt="Tech Self">
+      </div>
+
+      <div class="w3-padding-16">
+        <button class="button button-grad2 w3-mobile"><a href="/Webform/contacther">Say hello!
+            :)</a></button>
+      </div>
+    </div>
+  </section>
+  </header>
+  </section>
+
+  <!-- FOOTER SECTION (call html file) -->
+  <section>
+    <div w3-include-html="/footer.html"></div>
+  </section>
   <!-- END FOOTER -->
 
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-<script type="text/javascript" src="/JavaScript/About.js"></script>
-<script type="text/javascript" src="/JavaScript/Main.js"></script>
+<script type="text/javascript" src="/js/about.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script>        includeHTML();</script>
 
 </html>

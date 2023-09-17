@@ -1,23 +1,23 @@
 
 // Function for table to hide/show the techs
-function myFunction() {
-  var x = document.getElementById("techs");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+// function myFunction() {
+//   var x = document.getElementById("techs");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
 // Function for table to hide/show the skills
-function myFunction2() {
-  var x = document.getElementById("skills");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+// function myFunction2() {
+//   var x = document.getElementById("skills");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
 
 /* WORK EXPEREIENCE SECTION */

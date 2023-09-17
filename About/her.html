@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="author" content="Samantha Simpson">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/CSS Styling/Main.css">
-  <link rel="stylesheet" href="/CSS Styling/About.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/about.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -24,36 +24,11 @@
 
 <body>
   <div class="container">
-        <!-- START OF MAIN NAVIGATION MENU -->
-        <!-- large main nav menu -->
-        <nav class="bgimg-1 w3-hide-small w3-display-container topnav" id="home">
-          <section>
-              <div class="navbartopMenu w3-hide-small"> <!-- w3-top TO navbar-->
-                  <div class="navbar-bar w3-wide w3-padding"> <!-- w3-bar TO navbar-bar-->
-                      <a href="/" class="w3-bar-item w3-button">Samantha</a>
-                      <div class="w3-right w3-hide-small">
-                          <a href="/Solutions/AllSolns" class="w3-bar-item w3-button">Solutions</a>
-                          <a href="/#contactMe" class="w3-bar-item w3-button">Contact</a>
-                          <span class="tooltipBottom"> <a class="email" href="mailto:?subject=Check out Samantha, the software engineer's website &body=https://www.samsunshine.dev/" target="_blank"><i class="fa fa-paper-plane-o"></i></a>&nbsp;&nbsp;&nbsp;
-                          </span> 
-                      </div>
-                  </div>
-              </div>
-          </section>
-          <br>
-      </nav>
-                <!-- small main nav menu -->
-                <nav class="navbartopMenuMobile bgimg-1 w3-display-container w3-hide-medium w3-hide-large" id="home">
-                  <section>
-                      <div class="w3-hide-large w3-center"> <!-- w3-top TO navbar-->
-                        <a href="/" class="w3-right paddingRight"><img src="/Assets/gifs/samantha.gif" width="45px" height="45px"></a>
-                      </div>
-                      </div>
-                  </section>
-                  <br>
-              </nav>
-<!-- END TOP MENU NAVIGATION SECTION (sit on top) -->
-
+  <!-- START OF MAIN NAVIGATION MENU / HEADER SECTION (call html file) -->
+  <header>
+    <div w3-include-html="/header.html"></div>
+  </header>
+  <!-- END HEADER -->
 
 <!-- PAGE CONTENT -->
     <section>    
@@ -230,7 +205,6 @@
           <th>
             <div class="certTitle">Associate of Science - AS, Computer Science</div>
             <div class="certSource">Chaffey College<br> 
-              <!-- <a href="">View credential</a><br> -->
             </div>
           </th>
         </tr>
@@ -243,7 +217,6 @@
         <th>
           <div class="certTitle">Associate of Science - AS, Physics</div>
           <div class="certSource">Chaffey College<br> 
-            <!-- <a href="">View credential</a><br> -->
           </div>
         </th>
       </tr>
@@ -282,7 +255,6 @@
         <th>
           <div class="certTitle">Creating Memorable Visual Presentations</div>
           <div class="certSource">Visme<br>
-            <!-- <a href="" class="link2"  target=”_blank” >View credential</a> -->
           </div>
         </th>
       </tr>
@@ -536,7 +508,6 @@
               <th>
                 <div class="certTitle">Associate of Science - AS, Computer Science</div>
                 <div class="certSource">Chaffey College<br> 
-                  <!-- <a href="">View credential</a><br> -->
                 </div>
               </th>
             </tr>
@@ -554,7 +525,6 @@
             <th>
               <div class="certTitle">Associate of Science - AS, Physics</div>
               <div class="certSource">Chaffey College<br> 
-                <!-- <a href="">View credential</a><br> -->
               </div>
             </th>
           </tr>
@@ -608,7 +578,6 @@
             <th>
               <div class="certTitle">Creating Memorable Visual Presentations</div>
               <div class="certSource">Visme<br>
-                <!-- <a href="" class="link2"  target=”_blank” >View credential</a> -->
               </div>
             </th>
           </tr>
@@ -688,7 +657,7 @@
                 <h2><strong><i>NFT Marketplace</i></strong><br></h2>
                 <h2><strong>My role:</strong> UI/UX web developer & team manager</h2>
                 <h3>RMDS Lab, a data and artificial intelligence (AI) platform, created the first non-fungible token (NFT) marketplace for science and technology intellectual property.
-                  <a href="/Solutions/NFTMarket" style="color: var(--link-color2)">Learn more</a>.
+                  <a href="/solutions/NFTMarket" style="color: var(--link-color2)">Learn more</a>.
                   <br><br></h3>
               </div>
       
@@ -842,7 +811,6 @@
     
     <!-- tech tab section -->
     <div id="techSection" class="tabcontent centerDiv container2">
-    <!-- <h2>My most recently used technologies:</h2> -->
     
     <section>
       <div class="w3-container w3-quarter w3-margin" style="padding-left: 5%" id="credits">
@@ -929,7 +897,6 @@
     
     <!-- licenses tab section -->
     <div id="licenseCertSection" class="tabcontent container2">
-    <!-- <h2>Education, licenses & certifications:</h2> -->
     
     <section>
       <div class="row">
@@ -944,7 +911,6 @@
               <th>
                 <div class="certTitle">Bachelor of Science - BS,<br> Computer Science</div>
                 <div class="certSource">Cal State LA College of ECST<br> 
-                  <!-- <a href="">View credential</a><br> -->
                 </div>
               </th>
             </tr>
@@ -962,7 +928,6 @@
             <th>
               <div class="certTitle">Associate of Science - AS,<br> Computer Science</div>
               <div class="certSource">Chaffey College<br> 
-                <!-- <a href="">View credential</a><br> -->
               </div>
             </th>
           </tr>
@@ -980,7 +945,6 @@
             <th>
               <div class="certTitle">Associate of Science - AS,<br> Physics</div>
               <div class="certSource">Chaffey College<br> 
-                <!-- <a href="">View credential</a><br> -->
               </div>
             </th>
           </tr>
@@ -1036,7 +1000,6 @@
             <th>
               <div class="certTitle">Creating Memorable <br>Visual Presentations</div>
               <div class="certSource">Visme<br> <br>
-                <!-- <a href="" class="link2"  target=”_blank” >View credential</a> -->
               </div>
             </th>
           </tr>
@@ -1226,7 +1189,6 @@
         <th>
           <div class="certTitle">Associate of Science - AS, Computer Science</div>
           <div class="certSource">Chaffey College<br> 
-            <!-- <a href="">View credential</a><br> -->
           </div>
         </th>
       </tr>
@@ -1244,7 +1206,6 @@
       <th>
         <div class="certTitle">Associate of Science - AS, Physics</div>
         <div class="certSource">Chaffey College<br> 
-          <!-- <a href="">View credential</a><br> -->
         </div>
       </th>
     </tr>
@@ -1298,7 +1259,6 @@
       <th>
         <div class="certTitle">Creating Memorable Visual Presentations</div>
         <div class="certSource">Visme<br>
-          <!-- <a href="" class="link2"  target=”_blank” >View credential</a> -->
         </div>
       </th>
     </tr>
@@ -1399,35 +1359,17 @@
       </section>
       <!-- END OF CONTACT FORM SECTION -->
 
-  <!-- FOOTER SECTION (sit on bottom) -->
+  <!-- FOOTER SECTION (call html file) -->
   <section>
-    <br><br><br>
-    <div class="footerMenu w3-row w3-center w3-hide-small w3-section">
-      <div class="w3-center w3-padding-16">
-        <a href="https://www.linkedin.com/in/samantha-simpson-8a5737122/" class=""><img src="/Assets/logos/LI-In-Bug.png" width="55px" height="50px"></a>&nbsp;        <a href="https://github.com/SamSunshine" class=""><img src="/Assets/logos/github-mark-white.png" width="50px" height="50px"></a>&nbsp;
-        <a href="https://trailblazer.me/id/samsunshine" class=""><img src="/Assets/logos/salesforce.png" width="50px" height="50px"></a>&nbsp;
-      </div>
-
-      <div class="w3-center">  
-        <a href="https://github.com/SamSunshine/Samantha-Company-Site" class="w3-bar-item">Site Design &
-          Build &#169; Samantha Simpson &hearts; 2023</a>
-      </div>
-      <a href="#home" class="w3-bar-item">&#8593 &nbsp;Back to top &nbsp; &#8593 </a>
-    </div>
-<!-- small foot -->
-    </section>        
-    <span class="footerMenuMobile w3-hide-large w3-hide-medium">
-        <a href="/About/her" class="w3-left w3-button">About</a>
-         <a href="/Solutions/AllSolns" class=" w3-center w3-button">Solutions</a>
-         <a href="/Webform/contacther" class=" w3-right w3-button">Contact</a>
-      </span> 
-<!-- END FOOTER -->
+    <div w3-include-html="/footer.html"></div>
+  </section>
+  <!-- END FOOTER -->
 
   
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-  <script type="text/javascript" src="/JavaScript/About.js"></script>
-  <script type="text/javascript" src="/JavaScript/Main.js"></script>
-  
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script type="text/javascript" src="/js/about.js"></script>
+  <script>        includeHTML();</script>
   </html>

@@ -1,0 +1,55 @@
+.table-row {
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.table-2 {
+    background-color: white;
+    border-bottom: 10px solid var(--secondary-color) !important;
+    transition: 0.5s;
+    background-size: 200% auto;
+    /* box-shadow: 0 0 10px #eee; */
+    border-radius: 10px;
+    font: normal normal normal 32px/46px Display;
+    /* opacity: .5; */
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    color: var(--primary-color-muted);
+    /* Optional: Add a box shadow for depth */
+    backdrop-filter: blur(10px) saturate(180%);
+}
+
+.cert-col {
+    background-color: transparent;
+    color: var(--primary-color);
+    font: normal normal 24px Sitka Display;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  /* Start table section */
+.table-1 {
+    border-radius: 8px;
+    color: var(--primary-color);
+    padding: 5%;
+    text-align: left;
+    width: 100%;
+  }
+  .table-title {
+    color: var(--secondary-text);
+    font-size: 24px;;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding-left: 3%;
+    text-align: left;
+    }
+    
+    .table-sub-title {
+      color: var(--secondary-color);
+      font-size: 24px;
+      letter-spacing: 0px;
+      opacity: 1;
+      text-align: left;
+    }

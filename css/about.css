@@ -1,4 +1,4 @@
-/* Styling for divs */
+
 /* Styling for divs */
 .link1 {
   color: var(--link-color1);
@@ -14,6 +14,32 @@
 }
 .link3:hover{
   color: var(--highlight-color);
+}
+.link4 {
+  display: inline-block;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.link4:hover {
+  transform: skewX(-24deg);
+}
+
+.bounce-text:hover {
+  display: inline-block;
+  color: var(--link-color2);
+  cursor: pointer;
+  animation: bounce 0.8s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .button-grad1{
@@ -92,6 +118,7 @@ background-position: right center; /* change the direction of the change here */
 color: #fff;
 text-decoration: none;
 }
+
 
 .button1 {
   background: none;
@@ -174,7 +201,6 @@ padding: 18px 32px;
     padding: 18px 32px; 
   }
   
-  
   .button6:hover, .button2:hover {
     border-color: none;
     color: #C417DB;
@@ -198,16 +224,8 @@ padding: 18px 32px;
         padding: 18px 32px; 
       }
   .active3 {
-    background-color: var(--light-block-color); 
     border-color: none;
-  color: var(--secondary-color); 
-  font: normal normal normal 32px/46px Sitka Display;
-  padding: 18px 32px; 
-  }
-  .active3:hover {
-    background-color: var(--light-block-color); 
-    border-color: none;
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   font: normal normal normal 32px/46px Sitka Display;
   padding: 18px 32px; 
   }
@@ -223,7 +241,6 @@ padding: 10px;
 }
 /*Cards in licenses and certifications */
 .col-3 {
-background-color: white;
 float: left;
 width: 30%;
 padding: 10px;
@@ -241,30 +258,6 @@ padding: 10px;
 content: "";
 display: table;
 clear: both;
-}
-
-.certBlock,.w3-bottom{
-  position: relative;
-}
-.certBlock{
-  top: 0;
-  background-color: #E6E9EF;
-  color: #6A7B88;
-}
-
-.certTitle {
-text-align: left;
-font: normal normal bold 20px/29px Sitka Display;
-letter-spacing: 0px;
-color: var(--dark-text);
-opacity: 1;
-}
-.certSource {
-color: var(--dark-text);
-  font: normal normal 20px/29px Sitka Display;
-  letter-spacing: 0px;
-  opacity: 1;
-  text-align: left;
 }
 
 .title {
@@ -333,11 +326,14 @@ text-align: left;
 }
 .introToSamantha {
   color: var(--primary-color); 
-  font: normal normal normal 35px/40px Sitka Heading;
-  text-align: left;
+  font: normal normal normal 32px/35px Sitka Heading;
+  line-height: 48px;
 }
-.whatICanDo{
-  color: white;
+.opacityhalf{
+  opacity: 0.5;
+}
+.opactiy-third{
+  opacity: .6;
 }
 .leftHRLine {
   border: 1px solid #F820FF;
@@ -351,8 +347,8 @@ text-align: left;
   text-align: left;
  }
  .lightBackground{
-  background-color: #E6E9EF;
-  color:#142341
+  background-color: var(--light-block-color);
+  color: var(--secondary-color);
  }
 .rightSideText {
   color: #E6E9EF; 
@@ -372,7 +368,6 @@ top: 0;
 }
 
 .techTitle { 
-color: var(--dark-text);
 font: normal normal normal 30px/44px Sitka Display;
 opacity: 1;
 text-align: left;
@@ -380,7 +375,7 @@ text-align: left;
 .skillsTitle { 
 color: var(--primary-color-text);
 font: normal normal normal 30px/44px Sitka Display;
-opacity: 1;
+opacity: .5;
 text-align: left;
 }
 .skillsTitleMobile { 
@@ -467,15 +462,6 @@ position: relative;
 top: 0;
 }
 
-.container2 {
-background: var(--light-block-color);
-background-size: 200% auto;    
-box-shadow: 6px 13px 18px #ADAEC8C4;
-overflow: hidden;
-padding: 50px 50px;
-color: var(--secondary-color);
-transition: 0.5s;
-}
 /* Style the buttons */
 .btn2 {
 background: #3E8913 0% 0% no-repeat padding-box;
@@ -594,8 +580,16 @@ top: 0;
 }
 
 .active, .dot:hover {
-  color: var(--primary-color);
-  background-color: transparent;
+  background-image: linear-gradient(to right, #834d9b 0%, #d04ed6  51%, #834d9b  100%);
+  border: none!important;
+  background-size: 200% auto;
+  /* box-shadow: 0 0 10px #eee; */
+  border-radius: 10px;
+  color: var(--primary-color);            
+  font: normal normal normal 32px/46px Sitka Display;
+  opacity: 1;
+  padding: 18px 32px;
+  transition: 0.5s;
 }
 
 

@@ -1,0 +1,11 @@
+.mobile-heading {
+    color: var(--highlight-color);
+    font-size: 34px;
+    line-height: .5;
+  }
+  
+  .mobile-intro {
+    font-size: 28px;
+    line-height: .5;
+    text-align: left;
+  }
