@@ -320,12 +320,10 @@ clear: both;
   text-align: center; 
 }
 .mainIntroToSamantha {
-color: var(--primary-color); 
 font: normal normal normal 45px/50px Sitka Heading;
 text-align: left;
 }
 .introToSamantha {
-  color: var(--primary-color); 
   font: normal normal normal 30px Sitka Heading;
   line-height: 48px;
 }
