@@ -326,7 +326,7 @@ text-align: left;
 }
 .introToSamantha {
   color: var(--primary-color); 
-  font: normal normal normal 32px/35px Sitka Heading;
+  font: normal normal normal 30px Sitka Heading;
   line-height: 48px;
 }
 .opacityhalf{

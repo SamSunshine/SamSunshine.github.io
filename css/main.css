@@ -29,12 +29,21 @@ body:not(dark-mode) {
 
 }
 
+.highlight {
+  color: var(--highlight-color)!important;
+}
+
+.highlight-1 {
+  color: #50BEFF!important;
+}
+
 .mainTitle {
   color: var(--primary-color);
   font-size: 62px;
   font-weight: normal;
   font-weight: bold;
 }
+
 
 .subTitleBox {
   background-color: var(--link-color2);
